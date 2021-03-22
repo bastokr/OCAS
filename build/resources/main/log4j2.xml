@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration status="DEBUG" monitorInterval="300">
+
+	<!-- XML 안에서 사용할 Global property 설정 -->
+	<Properties>
+		<Property name="FILENAME">logs/</Property>
+		<!--<Property name="LAYOUT">%d{yyyy-MM-dd HH:mm:ss.SSS} [%-5level] [%t] %C{1.} - %msg%n</Property>-->
+		<Property name="LAYOUT">%d{MM-dd HH:mm:ss.SSS} [%-5level] [%t] >>> %msg%n</Property>
+	</Properties>
+
+	<Appenders>
+		<!-- Log 외에 출력 -->
+		<Console name="console" target="SYSTEM_OUT">
+			<PatternLayout pattern="${LAYOUT}"/>
+		</Console>
+
+		<!--<RollingFile name="DebugAppender"
+					 fileName="${FILENAME}/debug.log" filePattern="${FILENAME}/%d{yyyy-MM-dd}/debug.log">
+			<PatternLayout pattern="${LAYOUT} %throwable{full}"/>
+			&lt;!&ndash; 밑의 태그를 이용하여 Level별로 로그를 남길 수 있다. &ndash;&gt;
+			<LevelRangeFilter minLevel="DEBUG" maxLevel="TRACE"
+							  onMatch="ACCEPT" onMismatch="DENY"/>
+			<Policies>
+				<SizeBasedTriggeringPolicy size="50MB"/>
+				<TimeBasedTriggeringPolicy/>
+			</Policies>
+			<DefaultRolloverstrategy>
+				<Delete basePath="/logs" maxDepth="3">
+					<IfLastModified age="10d"/>
+				</Delete>
+			</DefaultRolloverstrategy>
+		</RollingFile>-->
+
+		<RollingFile name="RuntimeAppender"
+					 fileName="${FILENAME}/ocas.log" filePattern="${FILENAME}/%d{yyyy-MM-dd}/ocas_%d{yyyy-MM-dd}_%i.log">
+			<PatternLayout pattern="${LAYOUT}%throwable{full}"/>
+			<LevelRangeFilter minLevel="ERROR" maxLevel="TRACE"
+							  onMatch="ACCEPT" onMismatch="DENY"/>
+			<Policies>
+				<SizeBasedTriggeringPolicy size="50MB"/>
+				<TimeBasedTriggeringPolicy/>
+			</Policies>
+			<DefaultRolloverstrategy>
+				<Delete basePath="/logs" maxDepth="3">
+					<IfLastModified age="2d"/>
+				</Delete>
+			</DefaultRolloverstrategy>
+		</RollingFile>
+	</Appenders>
+
+	<Loggers>
+		<Root level="TRACE">
+			<!--<AppenderRef ref="DebugAppender"/>-->
+			<AppenderRef ref="RuntimeAppender"/>
+			<AppenderRef ref="console" />
+		</Root>
+	</Loggers>
+</configuration>
+<!-- 출처 : https://charlie-choi.tistory.com/238 -->
+
+<!--
+layout은 로그의 출력포맷을 지정해준다.
+
+%p : 로그레벨을 출력
+%m : 로그내용이 출력
+%d : 로그가 발생한 시간을 출력, 포맷은 %d{HH:mm:ss}, %d{yyyy-MM-dd HH:mm:ss}같은 형태로 사용하며, SimpleDateFormat 참고
+%t : 로그가 발생된 스레드의 이름을 출력
+%% : % 표시를 출력하기 위해 사용
+%n : 플랫폼 종속적인 개행문자가 출력된다. (\r\n 또는 \n)
+%c : 해당되는 로거의 이름을 끝에서부터 출력 ex. %c{끝에서부터 숫자}
+%C : 클래스명을 출력 ex. %C{끝에서부터 숫자}
+%F : 로깅이 발생한 프로그램 파일명을 출력
+%l : 로깅이 발생한 caller의 정보를 출력
+%L : 로깅이 발생한 caller의 라인수를 출력
+%M : 로깅이 발생한 method명을 출력
+%r : 어플리케이션 시작 이후 부터 로깅이 발생한 시점의 시간(milliseconds)을 출력
+%x : 로깅이 발생한 thread와 관련된 NDC(nested diagnostic context)를 출력
+%X : 로깅이 발생한 thread와 관련된 MDC(mapped diagnostic context)를 출력
+
+
+출처: https://sjh836.tistory.com/161 [빨간색코딩]
+-->

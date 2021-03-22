@@ -1,0 +1,17 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Main" type="Application" factoryName="Application" activateToolWindowBeforeRun="false" nameIsGenerated="true">
+    <option name="MAIN_CLASS_NAME" value="com.ecarplug.ocas.Main" />
+    <module name="OCAS.main" />
+    <option name="PROGRAM_PARAMETERS" value="-crc -debug -debuglog -p 8085 -rc 1 -plw 0 -fr 1" />
+    <option name="VM_PARAMETERS" value="-Duser.timezone=Asia/Seoul -Dfile.encoding=UTF-8 -Dfile.client.encoding=UTF-8 -Dclient.encoding.override=UTF-8" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.ecarplug.ocas.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

@@ -1,0 +1,84 @@
+03-22 10:25:54.960 [INFO ] [main] >>> Enviroment [Port : 8085]
+03-22 10:25:54.971 [INFO ] [main] >>> Enviroment [Refresh Charger : 1 min]
+03-22 10:25:54.971 [INFO ] [main] >>> Enviroment [Ignore CRC Error ENABLED]
+03-22 10:25:54.971 [INFO ] [main] >>> Enviroment [Debug Mode ENABLED]
+03-22 10:25:54.971 [INFO ] [main] >>> Enviroment [Print Debug Log ENABLED]
+03-22 10:25:54.972 [INFO ] [main] >>> Enviroment [Ignore ME API DISABLED]
+03-22 10:25:54.972 [INFO ] [main] >>> Enviroment [Packet Log Write Mode : Disable]
+03-22 10:25:54.972 [INFO ] [main] >>> Enviroment [Firmware Read Mode : Web API]
+03-22 10:25:55.051 [INFO ] [main] >>> Enviroment [Web Server Uri : http://localhost]
+03-22 10:25:59.710 [DEBUG] [main] >>> Using SLF4J as the default logging framework
+03-22 10:25:59.716 [DEBUG] [main] >>> -Dio.netty.eventLoopThreads: 12
+03-22 10:25:59.729 [DEBUG] [main] >>> -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+03-22 10:25:59.729 [DEBUG] [main] >>> -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+03-22 10:25:59.735 [DEBUG] [main] >>> -Dio.netty.noKeySetOptimization: false
+03-22 10:25:59.735 [DEBUG] [main] >>> -Dio.netty.selectorAutoRebuildThreshold: 512
+03-22 10:25:59.746 [DEBUG] [main] >>> Platform: Windows
+03-22 10:25:59.748 [DEBUG] [main] >>> -Dio.netty.noUnsafe: false
+03-22 10:25:59.748 [DEBUG] [main] >>> Java version: 8
+03-22 10:25:59.749 [DEBUG] [main] >>> sun.misc.Unsafe.theUnsafe: available
+03-22 10:25:59.749 [DEBUG] [main] >>> sun.misc.Unsafe.copyMemory: available
+03-22 10:25:59.750 [DEBUG] [main] >>> java.nio.Buffer.address: available
+03-22 10:25:59.750 [DEBUG] [main] >>> direct buffer constructor: available
+03-22 10:25:59.751 [DEBUG] [main] >>> java.nio.Bits.unaligned: available, true
+03-22 10:25:59.751 [DEBUG] [main] >>> jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+03-22 10:25:59.751 [DEBUG] [main] >>> java.nio.DirectByteBuffer.<init>(long, int): available
+03-22 10:25:59.751 [DEBUG] [main] >>> sun.misc.Unsafe: available
+03-22 10:25:59.752 [DEBUG] [main] >>> -Dio.netty.tmpdir: C:\Users\skpark\AppData\Local\Temp (java.io.tmpdir)
+03-22 10:25:59.752 [DEBUG] [main] >>> -Dio.netty.bitMode: 64 (sun.arch.data.model)
+03-22 10:25:59.752 [DEBUG] [main] >>> -Dio.netty.maxDirectMemory: 3806855168 bytes
+03-22 10:25:59.753 [DEBUG] [main] >>> -Dio.netty.uninitializedArrayAllocationThreshold: -1
+03-22 10:25:59.754 [DEBUG] [main] >>> java.nio.ByteBuffer.cleaner(): available
+03-22 10:25:59.754 [DEBUG] [main] >>> -Dio.netty.noPreferDirect: false
+03-22 10:25:59.760 [DEBUG] [main] >>> org.jctools-core.MpscChunkedArrayQueue: available
+03-22 10:25:59.769 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@30c93896
+03-22 10:25:59.770 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@21ba0741
+03-22 10:25:59.771 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@58ce9668
+03-22 10:25:59.771 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@172b013
+03-22 10:25:59.772 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@56673b2c
+03-22 10:25:59.773 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2796aeae
+03-22 10:25:59.773 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@b4711e2
+03-22 10:25:59.774 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1fa1cab1
+03-22 10:25:59.775 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@70f02c32
+03-22 10:25:59.775 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@62010f5c
+03-22 10:25:59.776 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@51fadaff
+03-22 10:25:59.777 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@401f7633
+03-22 10:25:59.778 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5c2375a9
+03-22 10:25:59.779 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@60129b9a
+03-22 10:25:59.779 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@78d6692f
+03-22 10:25:59.780 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7a55af6b
+03-22 10:25:59.780 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3d9c13b5
+03-22 10:25:59.781 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@492691d7
+03-22 10:25:59.782 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@27216cd
+03-22 10:25:59.782 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@558bdf1f
+03-22 10:25:59.783 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@8576fa0
+03-22 10:25:59.784 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7582ff54
+03-22 10:25:59.784 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@67545b57
+03-22 10:25:59.785 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6c2c1385
+03-22 10:25:59.785 [INFO ] [main] >>> Starting server at : 8085
+03-22 10:25:59.803 [DEBUG] [main] >>> -Dio.netty.processId: 28500 (auto-detected)
+03-22 10:25:59.804 [DEBUG] [main] >>> -Djava.net.preferIPv4Stack: false
+03-22 10:25:59.805 [DEBUG] [main] >>> -Djava.net.preferIPv6Addresses: false
+03-22 10:26:00.075 [DEBUG] [main] >>> Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+03-22 10:26:00.076 [DEBUG] [main] >>> Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+03-22 10:26:00.408 [DEBUG] [main] >>> -Dio.netty.machineId: e0:d5:5e:ff:fe:48:3f:43 (auto-detected)
+03-22 10:26:00.418 [DEBUG] [main] >>> -Dio.netty.leakDetection.level: simple
+03-22 10:26:00.418 [DEBUG] [main] >>> -Dio.netty.leakDetection.targetRecords: 4
+03-22 10:26:00.438 [DEBUG] [main] >>> -Dio.netty.allocator.numHeapArenas: 12
+03-22 10:26:00.439 [DEBUG] [main] >>> -Dio.netty.allocator.numDirectArenas: 12
+03-22 10:26:00.439 [DEBUG] [main] >>> -Dio.netty.allocator.pageSize: 8192
+03-22 10:26:00.439 [DEBUG] [main] >>> -Dio.netty.allocator.maxOrder: 11
+03-22 10:26:00.439 [DEBUG] [main] >>> -Dio.netty.allocator.chunkSize: 16777216
+03-22 10:26:00.439 [DEBUG] [main] >>> -Dio.netty.allocator.smallCacheSize: 256
+03-22 10:26:00.439 [DEBUG] [main] >>> -Dio.netty.allocator.normalCacheSize: 64
+03-22 10:26:00.439 [DEBUG] [main] >>> -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+03-22 10:26:00.439 [DEBUG] [main] >>> -Dio.netty.allocator.cacheTrimInterval: 8192
+03-22 10:26:00.439 [DEBUG] [main] >>> -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+03-22 10:26:00.440 [DEBUG] [main] >>> -Dio.netty.allocator.useCacheForAllThreads: true
+03-22 10:26:00.440 [DEBUG] [main] >>> -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+03-22 10:26:00.449 [DEBUG] [main] >>> -Dio.netty.allocator.type: pooled
+03-22 10:26:00.449 [DEBUG] [main] >>> -Dio.netty.threadLocalDirectBufferSize: 0
+03-22 10:26:00.450 [DEBUG] [main] >>> -Dio.netty.maxThreadLocalCharBufferSize: 16384
+03-22 10:26:00.457 [INFO ] [main] >>> Server started successfully
+03-22 10:26:00.457 [INFO ] [main] >>> Starting push server at : 8084
+03-22 10:26:00.466 [INFO ] [main] >>> Server push started successfully

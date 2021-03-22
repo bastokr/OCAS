@@ -1,0 +1,79 @@
+plugins {
+    id 'java'
+}
+
+group 'com.ecarplug.ocas'
+//version '0.0.44'
+//version '0.20.09.1'
+version '0.21.01.28'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'com.ecarplug.ocas.Main'
+    }
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+compileJava.options.encoding = 'UTF-8'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+    options.incremental = false
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    compile group: 'org.slf4j', name: 'slf4j-api', version:'1.7.25'
+
+    compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.9.0'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.9.0'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-slf4j-impl', version: '2.9.0'
+    
+    // sbNote IntelliJ Lombok 플러그인 설치후, Annotaiton Preprocesses 설청
+    // sbNote https://abettercode.tistory.com/72
+    compileOnly 'org.projectlombok:lombok:1.18.6'
+    annotationProcessor 'org.projectlombok:lombok:1.18.6'
+
+    // https://mvnrepository.com/artifact/org.jsoup/jsoup
+    compile group: 'org.jsoup', name: 'jsoup', version: '1.11.3'
+
+    // https://mvnrepository.com/artifact/io.netty/netty-all
+    compile group: 'io.netty', name: 'netty-all', version: '4.1.54.Final'
+
+    // https://mvnrepository.com/artifact/io.reactivex.rxjava2/rxjava
+    compile group: 'io.reactivex.rxjava2', name: 'rxjava', version: '2.2.14'
+
+    // https://mvnrepository.com/artifact/com.squareup.retrofit2/retrofit
+    compile group: 'com.squareup.retrofit2', name: 'retrofit', version: '2.6.2'
+    
+    // https://mvnrepository.com/artifact/com.squareup.retrofit2/adapter-rxjava2
+    compile group: 'com.squareup.retrofit2', name: 'adapter-rxjava2', version: '2.6.2'
+
+    // https://mvnrepository.com/artifact/com.squareup.retrofit2/converter-gson
+    compile group: 'com.squareup.retrofit2', name: 'converter-gson', version: '2.6.2'
+
+    // https://mvnrepository.com/artifact/com.squareup.okhttp3/logging-interceptor
+    compile group: 'com.squareup.okhttp3', name: 'logging-interceptor', version: '4.2.2'
+
+
+    // https://mvnrepository.com/artifact/commons-cli/commons-cli
+    compile 'commons-cli:commons-cli:1.4'
+
+    // https://mvnrepository.com/artifact/org.json/json
+    compile group: 'org.json', name: 'json', version: '20190722'
+
+    // https://mvnrepository.com/artifact/com.google.guava/guava
+    compile group: 'com.google.guava', name: 'guava', version: '28.1-jre'
+
+    // https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client
+    compile group: 'org.mariadb.jdbc', name: 'mariadb-java-client', version: '2.5.4'
+}

@@ -1,0 +1,1548 @@
+02-26 15:32:56.937 [INFO ] [main] >>> Enviroment [Refresh Charger : 10 min]
+02-26 15:32:56.938 [INFO ] [main] >>> Enviroment [Ignore CRC Error DISABLED]
+02-26 15:32:56.938 [INFO ] [main] >>> Enviroment [Debug Mode DISABLED]
+02-26 15:32:56.938 [INFO ] [main] >>> Enviroment [Print Debug Log DISABLED]
+02-26 15:32:56.939 [INFO ] [main] >>> Enviroment [Ignore ME API DISABLED]
+02-26 15:32:56.939 [INFO ] [main] >>> Enviroment [Packet Log Write Mode : Web API]
+02-26 15:32:56.939 [INFO ] [main] >>> Enviroment [Firmware Read Mode : Web API]
+02-26 15:32:56.997 [INFO ] [main] >>> Enviroment [Web Server Uri : https://test-manage.evrang.com]
+02-26 15:32:57.826 [DEBUG] [main] >>> Using SLF4J as the default logging framework
+02-26 15:32:57.828 [DEBUG] [main] >>> -Dio.netty.eventLoopThreads: 12
+02-26 15:32:57.841 [DEBUG] [main] >>> -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+02-26 15:32:57.842 [DEBUG] [main] >>> -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+02-26 15:32:57.847 [DEBUG] [main] >>> -Dio.netty.noKeySetOptimization: false
+02-26 15:32:57.847 [DEBUG] [main] >>> -Dio.netty.selectorAutoRebuildThreshold: 512
+02-26 15:32:57.858 [DEBUG] [main] >>> Platform: Windows
+02-26 15:32:57.860 [DEBUG] [main] >>> -Dio.netty.noUnsafe: false
+02-26 15:32:57.860 [DEBUG] [main] >>> Java version: 8
+02-26 15:32:57.861 [DEBUG] [main] >>> sun.misc.Unsafe.theUnsafe: available
+02-26 15:32:57.861 [DEBUG] [main] >>> sun.misc.Unsafe.copyMemory: available
+02-26 15:32:57.861 [DEBUG] [main] >>> java.nio.Buffer.address: available
+02-26 15:32:57.862 [DEBUG] [main] >>> direct buffer constructor: available
+02-26 15:32:57.862 [DEBUG] [main] >>> java.nio.Bits.unaligned: available, true
+02-26 15:32:57.862 [DEBUG] [main] >>> jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+02-26 15:32:57.862 [DEBUG] [main] >>> java.nio.DirectByteBuffer.<init>(long, int): available
+02-26 15:32:57.863 [DEBUG] [main] >>> sun.misc.Unsafe: available
+02-26 15:32:57.863 [DEBUG] [main] >>> -Dio.netty.tmpdir: C:\Users\skpark\AppData\Local\Temp (java.io.tmpdir)
+02-26 15:32:57.863 [DEBUG] [main] >>> -Dio.netty.bitMode: 64 (sun.arch.data.model)
+02-26 15:32:57.864 [DEBUG] [main] >>> -Dio.netty.maxDirectMemory: 3806855168 bytes
+02-26 15:32:57.864 [DEBUG] [main] >>> -Dio.netty.uninitializedArrayAllocationThreshold: -1
+02-26 15:32:57.865 [DEBUG] [main] >>> java.nio.ByteBuffer.cleaner(): available
+02-26 15:32:57.865 [DEBUG] [main] >>> -Dio.netty.noPreferDirect: false
+02-26 15:32:57.871 [DEBUG] [main] >>> org.jctools-core.MpscChunkedArrayQueue: available
+02-26 15:32:57.880 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@130dca52
+02-26 15:32:57.881 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@687ef2e0
+02-26 15:32:57.882 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@15dcfae7
+02-26 15:32:57.882 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3da05287
+02-26 15:32:57.883 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1e636ea3
+02-26 15:32:57.883 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@115667d
+02-26 15:32:57.884 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@736caf7a
+02-26 15:32:57.885 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4ce7fffa
+02-26 15:32:57.885 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@497486b3
+02-26 15:32:57.886 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@63f8276e
+02-26 15:32:57.886 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@75f95314
+02-26 15:32:57.887 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6127a7e
+02-26 15:32:57.888 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@46268f08
+02-26 15:32:57.889 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2a76840c
+02-26 15:32:57.889 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@71454b9d
+02-26 15:32:57.890 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@eda25e5
+02-26 15:32:57.890 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7cf6a5f9
+02-26 15:32:57.891 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@623e088f
+02-26 15:32:57.891 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@39fcbef6
+02-26 15:32:57.892 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@66565121
+02-26 15:32:57.893 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2fc6f97f
+02-26 15:32:57.893 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3d2ee678
+02-26 15:32:57.894 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6179e425
+02-26 15:32:57.894 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@35f26e72
+02-26 15:32:57.894 [INFO ] [main] >>> Starting server at : 8085
+02-26 15:32:57.910 [DEBUG] [main] >>> -Dio.netty.processId: 9564 (auto-detected)
+02-26 15:32:57.912 [DEBUG] [main] >>> -Djava.net.preferIPv4Stack: false
+02-26 15:32:57.912 [DEBUG] [main] >>> -Djava.net.preferIPv6Addresses: false
+02-26 15:32:58.171 [DEBUG] [main] >>> Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+02-26 15:32:58.172 [DEBUG] [main] >>> Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+02-26 15:32:58.438 [DEBUG] [main] >>> -Dio.netty.machineId: e0:d5:5e:ff:fe:48:3f:43 (auto-detected)
+02-26 15:32:58.446 [DEBUG] [main] >>> -Dio.netty.leakDetection.level: simple
+02-26 15:32:58.447 [DEBUG] [main] >>> -Dio.netty.leakDetection.targetRecords: 4
+02-26 15:32:58.465 [DEBUG] [main] >>> -Dio.netty.allocator.numHeapArenas: 12
+02-26 15:32:58.465 [DEBUG] [main] >>> -Dio.netty.allocator.numDirectArenas: 12
+02-26 15:32:58.465 [DEBUG] [main] >>> -Dio.netty.allocator.pageSize: 8192
+02-26 15:32:58.465 [DEBUG] [main] >>> -Dio.netty.allocator.maxOrder: 11
+02-26 15:32:58.465 [DEBUG] [main] >>> -Dio.netty.allocator.chunkSize: 16777216
+02-26 15:32:58.465 [DEBUG] [main] >>> -Dio.netty.allocator.smallCacheSize: 256
+02-26 15:32:58.465 [DEBUG] [main] >>> -Dio.netty.allocator.normalCacheSize: 64
+02-26 15:32:58.465 [DEBUG] [main] >>> -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+02-26 15:32:58.465 [DEBUG] [main] >>> -Dio.netty.allocator.cacheTrimInterval: 8192
+02-26 15:32:58.465 [DEBUG] [main] >>> -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+02-26 15:32:58.466 [DEBUG] [main] >>> -Dio.netty.allocator.useCacheForAllThreads: true
+02-26 15:32:58.466 [DEBUG] [main] >>> -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+02-26 15:32:58.473 [DEBUG] [main] >>> -Dio.netty.allocator.type: pooled
+02-26 15:32:58.473 [DEBUG] [main] >>> -Dio.netty.threadLocalDirectBufferSize: 0
+02-26 15:32:58.473 [DEBUG] [main] >>> -Dio.netty.maxThreadLocalCharBufferSize: 16384
+02-26 15:32:58.480 [INFO ] [main] >>> Server started successfully
+02-26 15:32:58.480 [INFO ] [main] >>> Starting push server at : 8084
+02-26 15:32:58.486 [INFO ] [main] >>> Server push started successfully
+02-26 15:33:06.938 [INFO ] [nioEventLoopGroup-3-1] >>> [/192.168.1.200:8085] Channel Active, Concurrent Channel : 1
+02-26 15:33:06.948 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.maxCapacityPerThread: 4096
+02-26 15:33:06.948 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.maxSharedCapacityFactor: 2
+02-26 15:33:06.948 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.linkCapacity: 16
+02-26 15:33:06.948 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.ratio: 8
+02-26 15:33:06.948 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.delayedQueue.ratio: 8
+02-26 15:33:06.954 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.buffer.checkAccessible: true
+02-26 15:33:06.954 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.buffer.checkBounds: true
+02-26 15:33:06.955 [DEBUG] [nioEventLoopGroup-3-1] >>> Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@627bc09f
+02-26 15:33:06.970 [INFO ] [nioEventLoopGroup-3-1] >>> Concurrent Channel : 1
+02-26 15:33:07.135 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> ȯ��� ������ ID : 
+02-26 15:33:07.135 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_version : CPP2007070
+02-26 15:33:07.135 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_link : 
+02-26 15:33:07.136 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_name : 
+02-26 15:33:07.136 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_size : 0
+02-26 15:33:07.136 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_filename : 
+02-26 15:33:07.136 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> charger type : slow
+02-26 15:33:07.137 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> manufacturer : 0
+02-26 15:33:07.137 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> model code : 
+02-26 15:33:07.137 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> concurrent channel : 1
+02-26 15:33:07.137 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> firmware version : CPP2007070
+02-26 15:33:07.137 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> sound : 0
+02-26 15:33:07.138 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> channel : 0
+02-26 15:33:07.138 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> ���� ��� ���·� : 0
+02-26 15:33:07.138 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> ���� ���� ������ : 0
+02-26 15:33:07.138 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> ä�� ���� ������ : 0
+02-26 15:33:07.139 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> �����ܰ� : [10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
+02-26 15:33:07.139 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> ��ȸ�� �ܰ� : 11000
+02-26 15:33:07.160 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] Packet log send, ���ɾ� : f, 
+02-26 15:35:00.258 [INFO ] [nioEventLoopGroup-3-1] >>> Concurrent Channel : 1
+02-26 15:35:00.259 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] ������ ������ ���� �������� : 1.8854166
+02-26 15:35:00.259 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] Packet log send, ���ɾ� : f, 
+02-26 15:35:00.263 [INFO ] [nioEventLoopGroup-3-1] >>> Concurrent Channel : 1
+02-26 15:35:00.263 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] ������ ������ ���� �������� : 1.8854833
+02-26 15:35:00.407 [DEBUG] [nioEventLoopGroup-3-1] >>> {"status":200,"data":{"result":1,"ret_code":"6","is_member":0,"user_type":2,"point":0,"msg":"ȸ�� ������ ã���� �����ϴ�"}}
+02-26 15:35:00.487 [INFO ] [nioEventLoopGroup-3-1] >>> Concurrent Channel : 1
+02-26 15:35:00.487 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] ������ ������ ���� �������� : 1.8892167
+02-26 15:35:00.488 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] Packet log send, ���ɾ� : f, 
+02-26 15:35:10.743 [INFO ] [nioEventLoopGroup-3-1] >>> Concurrent Channel : 1
+02-26 15:35:10.743 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] ������ ������ ���� �������� : 2.06015
+02-26 15:35:10.744 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] Packet log send, ���ɾ� : f, 
+02-26 15:35:10.751 [INFO ] [nioEventLoopGroup-3-1] >>> Concurrent Channel : 1
+02-26 15:35:10.751 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] ������ ������ ���� �������� : 2.0602832
+02-26 15:35:10.887 [DEBUG] [nioEventLoopGroup-3-1] >>> {"status":200,"data":{"result":1,"ret_code":"6","is_member":0,"user_type":2,"point":0,"msg":"ȸ�� ������ ã���� �����ϴ�"}}
+02-26 15:35:10.935 [INFO ] [nioEventLoopGroup-3-1] >>> Concurrent Channel : 1
+02-26 15:35:10.935 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] ������ ������ ���� �������� : 2.06335
+02-26 15:35:10.936 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] Packet log send, ���ɾ� : f, 
+02-26 15:36:28.387 [INFO ] [nioEventLoopGroup-3-1] >>> Concurrent Channel : 1
+02-26 15:36:28.388 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] ������ ������ ���� �������� : 3.3542333
+02-26 15:36:31.387 [INFO ] [nioEventLoopGroup-3-1] >>> Concurrent Channel : 1
+02-26 15:36:31.387 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] ������ ������ ���� �������� : 3.4042168
+02-26 15:41:12.425 [INFO ] [main] >>> Enviroment [Refresh Charger : 10 min]
+02-26 15:41:12.426 [INFO ] [main] >>> Enviroment [Ignore CRC Error DISABLED]
+02-26 15:41:12.426 [INFO ] [main] >>> Enviroment [Debug Mode DISABLED]
+02-26 15:41:12.427 [INFO ] [main] >>> Enviroment [Print Debug Log DISABLED]
+02-26 15:41:12.427 [INFO ] [main] >>> Enviroment [Ignore ME API DISABLED]
+02-26 15:41:12.427 [INFO ] [main] >>> Enviroment [Packet Log Write Mode : Web API]
+02-26 15:41:12.427 [INFO ] [main] >>> Enviroment [Firmware Read Mode : Web API]
+02-26 15:41:12.486 [INFO ] [main] >>> Enviroment [Web Server Uri : https://test-manage.evrang.com]
+02-26 15:41:13.310 [DEBUG] [main] >>> Using SLF4J as the default logging framework
+02-26 15:41:13.312 [DEBUG] [main] >>> -Dio.netty.eventLoopThreads: 12
+02-26 15:41:13.324 [DEBUG] [main] >>> -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+02-26 15:41:13.324 [DEBUG] [main] >>> -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+02-26 15:41:13.330 [DEBUG] [main] >>> -Dio.netty.noKeySetOptimization: false
+02-26 15:41:13.330 [DEBUG] [main] >>> -Dio.netty.selectorAutoRebuildThreshold: 512
+02-26 15:41:13.341 [DEBUG] [main] >>> Platform: Windows
+02-26 15:41:13.342 [DEBUG] [main] >>> -Dio.netty.noUnsafe: false
+02-26 15:41:13.342 [DEBUG] [main] >>> Java version: 8
+02-26 15:41:13.343 [DEBUG] [main] >>> sun.misc.Unsafe.theUnsafe: available
+02-26 15:41:13.344 [DEBUG] [main] >>> sun.misc.Unsafe.copyMemory: available
+02-26 15:41:13.344 [DEBUG] [main] >>> java.nio.Buffer.address: available
+02-26 15:41:13.344 [DEBUG] [main] >>> direct buffer constructor: available
+02-26 15:41:13.345 [DEBUG] [main] >>> java.nio.Bits.unaligned: available, true
+02-26 15:41:13.345 [DEBUG] [main] >>> jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+02-26 15:41:13.345 [DEBUG] [main] >>> java.nio.DirectByteBuffer.<init>(long, int): available
+02-26 15:41:13.345 [DEBUG] [main] >>> sun.misc.Unsafe: available
+02-26 15:41:13.346 [DEBUG] [main] >>> -Dio.netty.tmpdir: C:\Users\skpark\AppData\Local\Temp (java.io.tmpdir)
+02-26 15:41:13.346 [DEBUG] [main] >>> -Dio.netty.bitMode: 64 (sun.arch.data.model)
+02-26 15:41:13.346 [DEBUG] [main] >>> -Dio.netty.maxDirectMemory: 3806855168 bytes
+02-26 15:41:13.346 [DEBUG] [main] >>> -Dio.netty.uninitializedArrayAllocationThreshold: -1
+02-26 15:41:13.348 [DEBUG] [main] >>> java.nio.ByteBuffer.cleaner(): available
+02-26 15:41:13.348 [DEBUG] [main] >>> -Dio.netty.noPreferDirect: false
+02-26 15:41:13.353 [DEBUG] [main] >>> org.jctools-core.MpscChunkedArrayQueue: available
+02-26 15:41:13.362 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@130dca52
+02-26 15:41:13.363 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@687ef2e0
+02-26 15:41:13.364 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@15dcfae7
+02-26 15:41:13.364 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3da05287
+02-26 15:41:13.365 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1e636ea3
+02-26 15:41:13.365 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@115667d
+02-26 15:41:13.366 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@736caf7a
+02-26 15:41:13.366 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4ce7fffa
+02-26 15:41:13.367 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@497486b3
+02-26 15:41:13.367 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@63f8276e
+02-26 15:41:13.368 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@75f95314
+02-26 15:41:13.368 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6127a7e
+02-26 15:41:13.370 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@46268f08
+02-26 15:41:13.370 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2a76840c
+02-26 15:41:13.371 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@71454b9d
+02-26 15:41:13.371 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@eda25e5
+02-26 15:41:13.372 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7cf6a5f9
+02-26 15:41:13.372 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@623e088f
+02-26 15:41:13.373 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@39fcbef6
+02-26 15:41:13.373 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@66565121
+02-26 15:41:13.374 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2fc6f97f
+02-26 15:41:13.374 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3d2ee678
+02-26 15:41:13.375 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6179e425
+02-26 15:41:13.375 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@35f26e72
+02-26 15:41:13.375 [INFO ] [main] >>> Starting server at : 8085
+02-26 15:41:13.390 [DEBUG] [main] >>> -Dio.netty.processId: 22104 (auto-detected)
+02-26 15:41:13.392 [DEBUG] [main] >>> -Djava.net.preferIPv4Stack: false
+02-26 15:41:13.392 [DEBUG] [main] >>> -Djava.net.preferIPv6Addresses: false
+02-26 15:41:13.651 [DEBUG] [main] >>> Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+02-26 15:41:13.652 [DEBUG] [main] >>> Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+02-26 15:41:13.916 [DEBUG] [main] >>> -Dio.netty.machineId: e0:d5:5e:ff:fe:48:3f:43 (auto-detected)
+02-26 15:41:13.925 [DEBUG] [main] >>> -Dio.netty.leakDetection.level: simple
+02-26 15:41:13.926 [DEBUG] [main] >>> -Dio.netty.leakDetection.targetRecords: 4
+02-26 15:41:13.944 [DEBUG] [main] >>> -Dio.netty.allocator.numHeapArenas: 12
+02-26 15:41:13.944 [DEBUG] [main] >>> -Dio.netty.allocator.numDirectArenas: 12
+02-26 15:41:13.944 [DEBUG] [main] >>> -Dio.netty.allocator.pageSize: 8192
+02-26 15:41:13.944 [DEBUG] [main] >>> -Dio.netty.allocator.maxOrder: 11
+02-26 15:41:13.944 [DEBUG] [main] >>> -Dio.netty.allocator.chunkSize: 16777216
+02-26 15:41:13.944 [DEBUG] [main] >>> -Dio.netty.allocator.smallCacheSize: 256
+02-26 15:41:13.945 [DEBUG] [main] >>> -Dio.netty.allocator.normalCacheSize: 64
+02-26 15:41:13.945 [DEBUG] [main] >>> -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+02-26 15:41:13.945 [DEBUG] [main] >>> -Dio.netty.allocator.cacheTrimInterval: 8192
+02-26 15:41:13.945 [DEBUG] [main] >>> -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+02-26 15:41:13.945 [DEBUG] [main] >>> -Dio.netty.allocator.useCacheForAllThreads: true
+02-26 15:41:13.945 [DEBUG] [main] >>> -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+02-26 15:41:13.953 [DEBUG] [main] >>> -Dio.netty.allocator.type: pooled
+02-26 15:41:13.953 [DEBUG] [main] >>> -Dio.netty.threadLocalDirectBufferSize: 0
+02-26 15:41:13.953 [DEBUG] [main] >>> -Dio.netty.maxThreadLocalCharBufferSize: 16384
+02-26 15:41:13.960 [INFO ] [main] >>> Server started successfully
+02-26 15:41:13.960 [INFO ] [main] >>> Starting push server at : 8084
+02-26 15:41:13.966 [INFO ] [main] >>> Server push started successfully
+02-26 15:41:19.147 [INFO ] [nioEventLoopGroup-3-1] >>> [/192.168.1.200:8085] Channel Active, Concurrent Channel : 1
+02-26 15:41:19.156 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.maxCapacityPerThread: 4096
+02-26 15:41:19.156 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.maxSharedCapacityFactor: 2
+02-26 15:41:19.156 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.linkCapacity: 16
+02-26 15:41:19.156 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.ratio: 8
+02-26 15:41:19.156 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.delayedQueue.ratio: 8
+02-26 15:41:19.162 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.buffer.checkAccessible: true
+02-26 15:41:19.162 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.buffer.checkBounds: true
+02-26 15:41:19.163 [DEBUG] [nioEventLoopGroup-3-1] >>> Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@18aad3a0
+02-26 15:41:19.177 [INFO ] [nioEventLoopGroup-3-1] >>> Concurrent Channel : 1
+02-26 15:41:19.339 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> ȯ��� ������ ID : 
+02-26 15:41:19.340 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_version : CPP2007070
+02-26 15:41:19.340 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_link : 
+02-26 15:41:19.340 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_name : 
+02-26 15:41:19.340 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_size : 0
+02-26 15:41:19.341 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_filename : 
+02-26 15:41:19.341 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> charger type : slow
+02-26 15:41:19.341 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> manufacturer : 0
+02-26 15:41:19.341 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> model code : 
+02-26 15:41:19.342 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> concurrent channel : 1
+02-26 15:41:19.342 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> firmware version : CPP2007070
+02-26 15:41:19.342 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> sound : 0
+02-26 15:41:19.342 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> channel : 0
+02-26 15:41:19.343 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> ���� ��� ���·� : 0
+02-26 15:41:19.343 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> ���� ���� ������ : 0
+02-26 15:41:19.343 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> ä�� ���� ������ : 0
+02-26 15:41:19.343 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> �����ܰ� : [10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
+02-26 15:41:19.343 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> ��ȸ�� �ܰ� : 11000
+02-26 15:41:19.364 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] Packet log send, ���ɾ� : f, 
+02-26 15:44:54.956 [INFO ] [main] >>> Enviroment [Refresh Charger : 10 min]
+02-26 15:44:54.957 [INFO ] [main] >>> Enviroment [Ignore CRC Error DISABLED]
+02-26 15:44:54.957 [INFO ] [main] >>> Enviroment [Debug Mode DISABLED]
+02-26 15:44:54.957 [INFO ] [main] >>> Enviroment [Print Debug Log DISABLED]
+02-26 15:44:54.957 [INFO ] [main] >>> Enviroment [Ignore ME API DISABLED]
+02-26 15:44:54.958 [INFO ] [main] >>> Enviroment [Packet Log Write Mode : Web API]
+02-26 15:44:54.958 [INFO ] [main] >>> Enviroment [Firmware Read Mode : Web API]
+02-26 15:44:55.016 [INFO ] [main] >>> Enviroment [Web Server Uri : https://test-manage.evrang.com]
+02-26 15:44:55.821 [DEBUG] [main] >>> Using SLF4J as the default logging framework
+02-26 15:44:55.823 [DEBUG] [main] >>> -Dio.netty.eventLoopThreads: 12
+02-26 15:44:55.836 [DEBUG] [main] >>> -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+02-26 15:44:55.836 [DEBUG] [main] >>> -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+02-26 15:44:55.842 [DEBUG] [main] >>> -Dio.netty.noKeySetOptimization: false
+02-26 15:44:55.842 [DEBUG] [main] >>> -Dio.netty.selectorAutoRebuildThreshold: 512
+02-26 15:44:55.853 [DEBUG] [main] >>> Platform: Windows
+02-26 15:44:55.854 [DEBUG] [main] >>> -Dio.netty.noUnsafe: false
+02-26 15:44:55.854 [DEBUG] [main] >>> Java version: 8
+02-26 15:44:55.855 [DEBUG] [main] >>> sun.misc.Unsafe.theUnsafe: available
+02-26 15:44:55.855 [DEBUG] [main] >>> sun.misc.Unsafe.copyMemory: available
+02-26 15:44:55.856 [DEBUG] [main] >>> java.nio.Buffer.address: available
+02-26 15:44:55.856 [DEBUG] [main] >>> direct buffer constructor: available
+02-26 15:44:55.857 [DEBUG] [main] >>> java.nio.Bits.unaligned: available, true
+02-26 15:44:55.857 [DEBUG] [main] >>> jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+02-26 15:44:55.857 [DEBUG] [main] >>> java.nio.DirectByteBuffer.<init>(long, int): available
+02-26 15:44:55.857 [DEBUG] [main] >>> sun.misc.Unsafe: available
+02-26 15:44:55.858 [DEBUG] [main] >>> -Dio.netty.tmpdir: C:\Users\skpark\AppData\Local\Temp (java.io.tmpdir)
+02-26 15:44:55.858 [DEBUG] [main] >>> -Dio.netty.bitMode: 64 (sun.arch.data.model)
+02-26 15:44:55.858 [DEBUG] [main] >>> -Dio.netty.maxDirectMemory: 3806855168 bytes
+02-26 15:44:55.858 [DEBUG] [main] >>> -Dio.netty.uninitializedArrayAllocationThreshold: -1
+02-26 15:44:55.859 [DEBUG] [main] >>> java.nio.ByteBuffer.cleaner(): available
+02-26 15:44:55.860 [DEBUG] [main] >>> -Dio.netty.noPreferDirect: false
+02-26 15:44:55.865 [DEBUG] [main] >>> org.jctools-core.MpscChunkedArrayQueue: available
+02-26 15:44:55.874 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@130dca52
+02-26 15:44:55.875 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@687ef2e0
+02-26 15:44:55.876 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@15dcfae7
+02-26 15:44:55.876 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3da05287
+02-26 15:44:55.877 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1e636ea3
+02-26 15:44:55.877 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@115667d
+02-26 15:44:55.878 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@736caf7a
+02-26 15:44:55.878 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4ce7fffa
+02-26 15:44:55.879 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@497486b3
+02-26 15:44:55.879 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@63f8276e
+02-26 15:44:55.880 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@75f95314
+02-26 15:44:55.880 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6127a7e
+02-26 15:44:55.881 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@46268f08
+02-26 15:44:55.882 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2a76840c
+02-26 15:44:55.883 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@71454b9d
+02-26 15:44:55.883 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@eda25e5
+02-26 15:44:55.884 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7cf6a5f9
+02-26 15:44:55.884 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@623e088f
+02-26 15:44:55.885 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@39fcbef6
+02-26 15:44:55.885 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@66565121
+02-26 15:44:55.886 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2fc6f97f
+02-26 15:44:55.886 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3d2ee678
+02-26 15:44:55.887 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6179e425
+02-26 15:44:55.887 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@35f26e72
+02-26 15:44:55.887 [INFO ] [main] >>> Starting server at : 8085
+02-26 15:44:55.902 [DEBUG] [main] >>> -Dio.netty.processId: 21108 (auto-detected)
+02-26 15:44:55.904 [DEBUG] [main] >>> -Djava.net.preferIPv4Stack: false
+02-26 15:44:55.904 [DEBUG] [main] >>> -Djava.net.preferIPv6Addresses: false
+02-26 15:44:56.161 [DEBUG] [main] >>> Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+02-26 15:44:56.162 [DEBUG] [main] >>> Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+02-26 15:44:56.419 [DEBUG] [main] >>> -Dio.netty.machineId: e0:d5:5e:ff:fe:48:3f:43 (auto-detected)
+02-26 15:44:56.428 [DEBUG] [main] >>> -Dio.netty.leakDetection.level: simple
+02-26 15:44:56.428 [DEBUG] [main] >>> -Dio.netty.leakDetection.targetRecords: 4
+02-26 15:44:56.446 [DEBUG] [main] >>> -Dio.netty.allocator.numHeapArenas: 12
+02-26 15:44:56.446 [DEBUG] [main] >>> -Dio.netty.allocator.numDirectArenas: 12
+02-26 15:44:56.446 [DEBUG] [main] >>> -Dio.netty.allocator.pageSize: 8192
+02-26 15:44:56.446 [DEBUG] [main] >>> -Dio.netty.allocator.maxOrder: 11
+02-26 15:44:56.446 [DEBUG] [main] >>> -Dio.netty.allocator.chunkSize: 16777216
+02-26 15:44:56.446 [DEBUG] [main] >>> -Dio.netty.allocator.smallCacheSize: 256
+02-26 15:44:56.447 [DEBUG] [main] >>> -Dio.netty.allocator.normalCacheSize: 64
+02-26 15:44:56.447 [DEBUG] [main] >>> -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+02-26 15:44:56.447 [DEBUG] [main] >>> -Dio.netty.allocator.cacheTrimInterval: 8192
+02-26 15:44:56.447 [DEBUG] [main] >>> -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+02-26 15:44:56.447 [DEBUG] [main] >>> -Dio.netty.allocator.useCacheForAllThreads: true
+02-26 15:44:56.447 [DEBUG] [main] >>> -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+02-26 15:44:56.455 [DEBUG] [main] >>> -Dio.netty.allocator.type: pooled
+02-26 15:44:56.455 [DEBUG] [main] >>> -Dio.netty.threadLocalDirectBufferSize: 0
+02-26 15:44:56.455 [DEBUG] [main] >>> -Dio.netty.maxThreadLocalCharBufferSize: 16384
+02-26 15:44:56.461 [INFO ] [main] >>> Stopping server all
+02-26 15:46:22.935 [INFO ] [main] >>> Enviroment [Refresh Charger : 10 min]
+02-26 15:46:22.936 [INFO ] [main] >>> Enviroment [Ignore CRC Error DISABLED]
+02-26 15:46:22.936 [INFO ] [main] >>> Enviroment [Debug Mode DISABLED]
+02-26 15:46:22.936 [INFO ] [main] >>> Enviroment [Print Debug Log DISABLED]
+02-26 15:46:22.937 [INFO ] [main] >>> Enviroment [Ignore ME API DISABLED]
+02-26 15:46:22.937 [INFO ] [main] >>> Enviroment [Packet Log Write Mode : Web API]
+02-26 15:46:22.937 [INFO ] [main] >>> Enviroment [Firmware Read Mode : Web API]
+02-26 15:46:22.995 [INFO ] [main] >>> Enviroment [Web Server Uri : https://test-manage.evrang.com]
+02-26 15:46:23.794 [DEBUG] [main] >>> Using SLF4J as the default logging framework
+02-26 15:46:23.796 [DEBUG] [main] >>> -Dio.netty.eventLoopThreads: 12
+02-26 15:46:23.809 [DEBUG] [main] >>> -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+02-26 15:46:23.809 [DEBUG] [main] >>> -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+02-26 15:46:23.814 [DEBUG] [main] >>> -Dio.netty.noKeySetOptimization: false
+02-26 15:46:23.814 [DEBUG] [main] >>> -Dio.netty.selectorAutoRebuildThreshold: 512
+02-26 15:46:23.825 [DEBUG] [main] >>> Platform: Windows
+02-26 15:46:23.827 [DEBUG] [main] >>> -Dio.netty.noUnsafe: false
+02-26 15:46:23.827 [DEBUG] [main] >>> Java version: 8
+02-26 15:46:23.828 [DEBUG] [main] >>> sun.misc.Unsafe.theUnsafe: available
+02-26 15:46:23.828 [DEBUG] [main] >>> sun.misc.Unsafe.copyMemory: available
+02-26 15:46:23.828 [DEBUG] [main] >>> java.nio.Buffer.address: available
+02-26 15:46:23.829 [DEBUG] [main] >>> direct buffer constructor: available
+02-26 15:46:23.830 [DEBUG] [main] >>> java.nio.Bits.unaligned: available, true
+02-26 15:46:23.830 [DEBUG] [main] >>> jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+02-26 15:46:23.830 [DEBUG] [main] >>> java.nio.DirectByteBuffer.<init>(long, int): available
+02-26 15:46:23.830 [DEBUG] [main] >>> sun.misc.Unsafe: available
+02-26 15:46:23.830 [DEBUG] [main] >>> -Dio.netty.tmpdir: C:\Users\skpark\AppData\Local\Temp (java.io.tmpdir)
+02-26 15:46:23.830 [DEBUG] [main] >>> -Dio.netty.bitMode: 64 (sun.arch.data.model)
+02-26 15:46:23.831 [DEBUG] [main] >>> -Dio.netty.maxDirectMemory: 3806855168 bytes
+02-26 15:46:23.831 [DEBUG] [main] >>> -Dio.netty.uninitializedArrayAllocationThreshold: -1
+02-26 15:46:23.832 [DEBUG] [main] >>> java.nio.ByteBuffer.cleaner(): available
+02-26 15:46:23.832 [DEBUG] [main] >>> -Dio.netty.noPreferDirect: false
+02-26 15:46:23.838 [DEBUG] [main] >>> org.jctools-core.MpscChunkedArrayQueue: available
+02-26 15:46:23.847 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@130dca52
+02-26 15:46:23.847 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@687ef2e0
+02-26 15:46:23.848 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@15dcfae7
+02-26 15:46:23.849 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3da05287
+02-26 15:46:23.849 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1e636ea3
+02-26 15:46:23.850 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@115667d
+02-26 15:46:23.850 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@736caf7a
+02-26 15:46:23.851 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4ce7fffa
+02-26 15:46:23.851 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@497486b3
+02-26 15:46:23.852 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@63f8276e
+02-26 15:46:23.852 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@75f95314
+02-26 15:46:23.853 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6127a7e
+02-26 15:46:23.854 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@46268f08
+02-26 15:46:23.854 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2a76840c
+02-26 15:46:23.855 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@71454b9d
+02-26 15:46:23.855 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@eda25e5
+02-26 15:46:23.856 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7cf6a5f9
+02-26 15:46:23.856 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@623e088f
+02-26 15:46:23.857 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@39fcbef6
+02-26 15:46:23.857 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@66565121
+02-26 15:46:23.858 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2fc6f97f
+02-26 15:46:23.859 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3d2ee678
+02-26 15:46:23.859 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6179e425
+02-26 15:46:23.860 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@35f26e72
+02-26 15:46:23.860 [INFO ] [main] >>> Starting server at : 8085
+02-26 15:46:23.874 [DEBUG] [main] >>> -Dio.netty.processId: 11416 (auto-detected)
+02-26 15:46:23.876 [DEBUG] [main] >>> -Djava.net.preferIPv4Stack: false
+02-26 15:46:23.876 [DEBUG] [main] >>> -Djava.net.preferIPv6Addresses: false
+02-26 15:46:24.132 [DEBUG] [main] >>> Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+02-26 15:46:24.133 [DEBUG] [main] >>> Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+02-26 15:46:24.393 [DEBUG] [main] >>> -Dio.netty.machineId: e0:d5:5e:ff:fe:48:3f:43 (auto-detected)
+02-26 15:46:24.402 [DEBUG] [main] >>> -Dio.netty.leakDetection.level: simple
+02-26 15:46:24.402 [DEBUG] [main] >>> -Dio.netty.leakDetection.targetRecords: 4
+02-26 15:46:24.420 [DEBUG] [main] >>> -Dio.netty.allocator.numHeapArenas: 12
+02-26 15:46:24.420 [DEBUG] [main] >>> -Dio.netty.allocator.numDirectArenas: 12
+02-26 15:46:24.420 [DEBUG] [main] >>> -Dio.netty.allocator.pageSize: 8192
+02-26 15:46:24.421 [DEBUG] [main] >>> -Dio.netty.allocator.maxOrder: 11
+02-26 15:46:24.421 [DEBUG] [main] >>> -Dio.netty.allocator.chunkSize: 16777216
+02-26 15:46:24.421 [DEBUG] [main] >>> -Dio.netty.allocator.smallCacheSize: 256
+02-26 15:46:24.421 [DEBUG] [main] >>> -Dio.netty.allocator.normalCacheSize: 64
+02-26 15:46:24.421 [DEBUG] [main] >>> -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+02-26 15:46:24.421 [DEBUG] [main] >>> -Dio.netty.allocator.cacheTrimInterval: 8192
+02-26 15:46:24.421 [DEBUG] [main] >>> -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+02-26 15:46:24.421 [DEBUG] [main] >>> -Dio.netty.allocator.useCacheForAllThreads: true
+02-26 15:46:24.421 [DEBUG] [main] >>> -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+02-26 15:46:24.428 [DEBUG] [main] >>> -Dio.netty.allocator.type: pooled
+02-26 15:46:24.429 [DEBUG] [main] >>> -Dio.netty.threadLocalDirectBufferSize: 0
+02-26 15:46:24.429 [DEBUG] [main] >>> -Dio.netty.maxThreadLocalCharBufferSize: 16384
+02-26 15:46:24.436 [INFO ] [main] >>> Server started successfully
+02-26 15:46:24.436 [INFO ] [main] >>> Starting push server at : 8084
+02-26 15:46:24.441 [INFO ] [main] >>> Server push started successfully
+02-26 15:46:36.661 [INFO ] [nioEventLoopGroup-3-1] >>> [/192.168.1.200:8085] Channel Active, Concurrent Channel : 1
+02-26 15:46:36.670 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.maxCapacityPerThread: 4096
+02-26 15:46:36.670 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.maxSharedCapacityFactor: 2
+02-26 15:46:36.670 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.linkCapacity: 16
+02-26 15:46:36.670 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.ratio: 8
+02-26 15:46:36.671 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.delayedQueue.ratio: 8
+02-26 15:46:36.676 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.buffer.checkAccessible: true
+02-26 15:46:36.676 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.buffer.checkBounds: true
+02-26 15:46:36.677 [DEBUG] [nioEventLoopGroup-3-1] >>> Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@630dc8c9
+02-26 15:46:36.692 [INFO ] [nioEventLoopGroup-3-1] >>> Concurrent Channel : 1
+02-26 15:46:36.847 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> ȯ��� ������ ID : 
+02-26 15:46:36.848 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_version : CPP2007070
+02-26 15:46:36.848 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_link : 
+02-26 15:46:36.848 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_name : 
+02-26 15:46:36.848 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_size : 0
+02-26 15:46:36.848 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_filename : 
+02-26 15:46:36.849 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> charger type : slow
+02-26 15:46:36.849 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> manufacturer : 0
+02-26 15:46:36.849 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> model code : 
+02-26 15:46:36.849 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> concurrent channel : 1
+02-26 15:46:36.849 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> firmware version : CPP2007070
+02-26 15:46:36.850 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> sound : 0
+02-26 15:46:36.850 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> channel : 0
+02-26 15:46:36.850 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> ���� ��� ���·� : 0
+02-26 15:46:36.850 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> ���� ���� ������ : 0
+02-26 15:46:36.850 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> ä�� ���� ������ : 0
+02-26 15:46:36.850 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> �����ܰ� : [10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
+02-26 15:46:36.851 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> ��ȸ�� �ܰ� : 11000
+02-26 15:46:36.869 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] Packet log send, ���ɾ� : f, 
+02-26 15:50:20.500 [INFO ] [main] >>> Enviroment [Port : 8085]
+02-26 15:50:20.501 [INFO ] [main] >>> Enviroment [Refresh Charger : 1 min]
+02-26 15:50:20.501 [INFO ] [main] >>> Enviroment [Ignore CRC Error ENABLED]
+02-26 15:50:20.501 [INFO ] [main] >>> Enviroment [Debug Mode ENABLED]
+02-26 15:50:20.501 [INFO ] [main] >>> Enviroment [Print Debug Log ENABLED]
+02-26 15:50:20.502 [INFO ] [main] >>> Enviroment [Ignore ME API DISABLED]
+02-26 15:50:20.502 [INFO ] [main] >>> Enviroment [Packet Log Write Mode : Disable]
+02-26 15:50:20.502 [INFO ] [main] >>> Enviroment [Firmware Read Mode : Web API]
+02-26 15:50:20.561 [INFO ] [main] >>> Enviroment [Web Server Uri : https://test-manage.evrang.com]
+02-26 15:50:21.382 [DEBUG] [main] >>> Using SLF4J as the default logging framework
+02-26 15:50:21.384 [DEBUG] [main] >>> -Dio.netty.eventLoopThreads: 12
+02-26 15:50:21.396 [DEBUG] [main] >>> -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+02-26 15:50:21.396 [DEBUG] [main] >>> -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+02-26 15:50:21.402 [DEBUG] [main] >>> -Dio.netty.noKeySetOptimization: false
+02-26 15:50:21.402 [DEBUG] [main] >>> -Dio.netty.selectorAutoRebuildThreshold: 512
+02-26 15:50:21.413 [DEBUG] [main] >>> Platform: Windows
+02-26 15:50:21.414 [DEBUG] [main] >>> -Dio.netty.noUnsafe: false
+02-26 15:50:21.415 [DEBUG] [main] >>> Java version: 8
+02-26 15:50:21.415 [DEBUG] [main] >>> sun.misc.Unsafe.theUnsafe: available
+02-26 15:50:21.416 [DEBUG] [main] >>> sun.misc.Unsafe.copyMemory: available
+02-26 15:50:21.416 [DEBUG] [main] >>> java.nio.Buffer.address: available
+02-26 15:50:21.416 [DEBUG] [main] >>> direct buffer constructor: available
+02-26 15:50:21.417 [DEBUG] [main] >>> java.nio.Bits.unaligned: available, true
+02-26 15:50:21.417 [DEBUG] [main] >>> jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+02-26 15:50:21.417 [DEBUG] [main] >>> java.nio.DirectByteBuffer.<init>(long, int): available
+02-26 15:50:21.417 [DEBUG] [main] >>> sun.misc.Unsafe: available
+02-26 15:50:21.418 [DEBUG] [main] >>> -Dio.netty.tmpdir: C:\Users\skpark\AppData\Local\Temp (java.io.tmpdir)
+02-26 15:50:21.418 [DEBUG] [main] >>> -Dio.netty.bitMode: 64 (sun.arch.data.model)
+02-26 15:50:21.419 [DEBUG] [main] >>> -Dio.netty.maxDirectMemory: 3806855168 bytes
+02-26 15:50:21.419 [DEBUG] [main] >>> -Dio.netty.uninitializedArrayAllocationThreshold: -1
+02-26 15:50:21.420 [DEBUG] [main] >>> java.nio.ByteBuffer.cleaner(): available
+02-26 15:50:21.420 [DEBUG] [main] >>> -Dio.netty.noPreferDirect: false
+02-26 15:50:21.425 [DEBUG] [main] >>> org.jctools-core.MpscChunkedArrayQueue: available
+02-26 15:50:21.434 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@15dcfae7
+02-26 15:50:21.435 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@115667d
+02-26 15:50:21.436 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@736caf7a
+02-26 15:50:21.436 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4ce7fffa
+02-26 15:50:21.437 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@497486b3
+02-26 15:50:21.437 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@63f8276e
+02-26 15:50:21.438 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@75f95314
+02-26 15:50:21.439 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6127a7e
+02-26 15:50:21.439 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6bbe2511
+02-26 15:50:21.440 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@495fac5f
+02-26 15:50:21.440 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@76012793
+02-26 15:50:21.441 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@635572a7
+02-26 15:50:21.442 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7cf6a5f9
+02-26 15:50:21.442 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@623e088f
+02-26 15:50:21.443 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@39fcbef6
+02-26 15:50:21.444 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@66565121
+02-26 15:50:21.444 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2fc6f97f
+02-26 15:50:21.445 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3d2ee678
+02-26 15:50:21.445 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6179e425
+02-26 15:50:21.446 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@35f26e72
+02-26 15:50:21.446 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2d6764b2
+02-26 15:50:21.447 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@67304a40
+02-26 15:50:21.447 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@49c6c24f
+02-26 15:50:21.448 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6fe1b4fb
+02-26 15:50:21.448 [INFO ] [main] >>> Starting server at : 8085
+02-26 15:50:21.462 [DEBUG] [main] >>> -Dio.netty.processId: 12924 (auto-detected)
+02-26 15:50:21.464 [DEBUG] [main] >>> -Djava.net.preferIPv4Stack: false
+02-26 15:50:21.464 [DEBUG] [main] >>> -Djava.net.preferIPv6Addresses: false
+02-26 15:50:21.722 [DEBUG] [main] >>> Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+02-26 15:50:21.723 [DEBUG] [main] >>> Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+02-26 15:50:21.990 [DEBUG] [main] >>> -Dio.netty.machineId: e0:d5:5e:ff:fe:48:3f:43 (auto-detected)
+02-26 15:50:21.999 [DEBUG] [main] >>> -Dio.netty.leakDetection.level: simple
+02-26 15:50:21.999 [DEBUG] [main] >>> -Dio.netty.leakDetection.targetRecords: 4
+02-26 15:50:22.017 [DEBUG] [main] >>> -Dio.netty.allocator.numHeapArenas: 12
+02-26 15:50:22.017 [DEBUG] [main] >>> -Dio.netty.allocator.numDirectArenas: 12
+02-26 15:50:22.017 [DEBUG] [main] >>> -Dio.netty.allocator.pageSize: 8192
+02-26 15:50:22.017 [DEBUG] [main] >>> -Dio.netty.allocator.maxOrder: 11
+02-26 15:50:22.018 [DEBUG] [main] >>> -Dio.netty.allocator.chunkSize: 16777216
+02-26 15:50:22.018 [DEBUG] [main] >>> -Dio.netty.allocator.smallCacheSize: 256
+02-26 15:50:22.018 [DEBUG] [main] >>> -Dio.netty.allocator.normalCacheSize: 64
+02-26 15:50:22.018 [DEBUG] [main] >>> -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+02-26 15:50:22.018 [DEBUG] [main] >>> -Dio.netty.allocator.cacheTrimInterval: 8192
+02-26 15:50:22.018 [DEBUG] [main] >>> -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+02-26 15:50:22.018 [DEBUG] [main] >>> -Dio.netty.allocator.useCacheForAllThreads: true
+02-26 15:50:22.018 [DEBUG] [main] >>> -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+02-26 15:50:22.026 [DEBUG] [main] >>> -Dio.netty.allocator.type: pooled
+02-26 15:50:22.026 [DEBUG] [main] >>> -Dio.netty.threadLocalDirectBufferSize: 0
+02-26 15:50:22.026 [DEBUG] [main] >>> -Dio.netty.maxThreadLocalCharBufferSize: 16384
+02-26 15:50:22.033 [INFO ] [main] >>> Stopping server all
+02-26 15:50:39.993 [INFO ] [main] >>> Enviroment [Port : 8085]
+02-26 15:50:39.995 [INFO ] [main] >>> Enviroment [Refresh Charger : 1 min]
+02-26 15:50:39.995 [INFO ] [main] >>> Enviroment [Ignore CRC Error ENABLED]
+02-26 15:50:39.995 [INFO ] [main] >>> Enviroment [Debug Mode ENABLED]
+02-26 15:50:39.995 [INFO ] [main] >>> Enviroment [Print Debug Log ENABLED]
+02-26 15:50:39.995 [INFO ] [main] >>> Enviroment [Ignore ME API DISABLED]
+02-26 15:50:39.995 [INFO ] [main] >>> Enviroment [Packet Log Write Mode : Disable]
+02-26 15:50:39.996 [INFO ] [main] >>> Enviroment [Firmware Read Mode : Web API]
+02-26 15:50:40.056 [INFO ] [main] >>> Enviroment [Web Server Uri : https://test-manage.evrang.com]
+02-26 15:50:40.886 [DEBUG] [main] >>> Using SLF4J as the default logging framework
+02-26 15:50:40.888 [DEBUG] [main] >>> -Dio.netty.eventLoopThreads: 12
+02-26 15:50:40.901 [DEBUG] [main] >>> -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+02-26 15:50:40.901 [DEBUG] [main] >>> -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+02-26 15:50:40.907 [DEBUG] [main] >>> -Dio.netty.noKeySetOptimization: false
+02-26 15:50:40.907 [DEBUG] [main] >>> -Dio.netty.selectorAutoRebuildThreshold: 512
+02-26 15:50:40.918 [DEBUG] [main] >>> Platform: Windows
+02-26 15:50:40.920 [DEBUG] [main] >>> -Dio.netty.noUnsafe: false
+02-26 15:50:40.920 [DEBUG] [main] >>> Java version: 8
+02-26 15:50:40.921 [DEBUG] [main] >>> sun.misc.Unsafe.theUnsafe: available
+02-26 15:50:40.921 [DEBUG] [main] >>> sun.misc.Unsafe.copyMemory: available
+02-26 15:50:40.922 [DEBUG] [main] >>> java.nio.Buffer.address: available
+02-26 15:50:40.922 [DEBUG] [main] >>> direct buffer constructor: available
+02-26 15:50:40.923 [DEBUG] [main] >>> java.nio.Bits.unaligned: available, true
+02-26 15:50:40.923 [DEBUG] [main] >>> jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+02-26 15:50:40.923 [DEBUG] [main] >>> java.nio.DirectByteBuffer.<init>(long, int): available
+02-26 15:50:40.923 [DEBUG] [main] >>> sun.misc.Unsafe: available
+02-26 15:50:40.923 [DEBUG] [main] >>> -Dio.netty.tmpdir: C:\Users\skpark\AppData\Local\Temp (java.io.tmpdir)
+02-26 15:50:40.924 [DEBUG] [main] >>> -Dio.netty.bitMode: 64 (sun.arch.data.model)
+02-26 15:50:40.924 [DEBUG] [main] >>> -Dio.netty.maxDirectMemory: 3806855168 bytes
+02-26 15:50:40.924 [DEBUG] [main] >>> -Dio.netty.uninitializedArrayAllocationThreshold: -1
+02-26 15:50:40.925 [DEBUG] [main] >>> java.nio.ByteBuffer.cleaner(): available
+02-26 15:50:40.925 [DEBUG] [main] >>> -Dio.netty.noPreferDirect: false
+02-26 15:50:40.931 [DEBUG] [main] >>> org.jctools-core.MpscChunkedArrayQueue: available
+02-26 15:50:40.940 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@15dcfae7
+02-26 15:50:40.941 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@115667d
+02-26 15:50:40.942 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@736caf7a
+02-26 15:50:40.942 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4ce7fffa
+02-26 15:50:40.943 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@497486b3
+02-26 15:50:40.943 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@63f8276e
+02-26 15:50:40.944 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@75f95314
+02-26 15:50:40.944 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6127a7e
+02-26 15:50:40.945 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6bbe2511
+02-26 15:50:40.946 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@495fac5f
+02-26 15:50:40.946 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@76012793
+02-26 15:50:40.947 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@635572a7
+02-26 15:50:40.948 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7cf6a5f9
+02-26 15:50:40.948 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@623e088f
+02-26 15:50:40.949 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@39fcbef6
+02-26 15:50:40.949 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@66565121
+02-26 15:50:40.950 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2fc6f97f
+02-26 15:50:40.951 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3d2ee678
+02-26 15:50:40.951 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6179e425
+02-26 15:50:40.952 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@35f26e72
+02-26 15:50:40.952 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2d6764b2
+02-26 15:50:40.953 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@67304a40
+02-26 15:50:40.953 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@49c6c24f
+02-26 15:50:40.954 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6fe1b4fb
+02-26 15:50:40.954 [INFO ] [main] >>> Starting server at : 8085
+02-26 15:50:40.969 [DEBUG] [main] >>> -Dio.netty.processId: 17688 (auto-detected)
+02-26 15:50:40.971 [DEBUG] [main] >>> -Djava.net.preferIPv4Stack: false
+02-26 15:50:40.971 [DEBUG] [main] >>> -Djava.net.preferIPv6Addresses: false
+02-26 15:50:41.233 [DEBUG] [main] >>> Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+02-26 15:50:41.234 [DEBUG] [main] >>> Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+02-26 15:50:41.498 [DEBUG] [main] >>> -Dio.netty.machineId: e0:d5:5e:ff:fe:48:3f:43 (auto-detected)
+02-26 15:50:41.507 [DEBUG] [main] >>> -Dio.netty.leakDetection.level: simple
+02-26 15:50:41.507 [DEBUG] [main] >>> -Dio.netty.leakDetection.targetRecords: 4
+02-26 15:50:41.526 [DEBUG] [main] >>> -Dio.netty.allocator.numHeapArenas: 12
+02-26 15:50:41.526 [DEBUG] [main] >>> -Dio.netty.allocator.numDirectArenas: 12
+02-26 15:50:41.526 [DEBUG] [main] >>> -Dio.netty.allocator.pageSize: 8192
+02-26 15:50:41.526 [DEBUG] [main] >>> -Dio.netty.allocator.maxOrder: 11
+02-26 15:50:41.526 [DEBUG] [main] >>> -Dio.netty.allocator.chunkSize: 16777216
+02-26 15:50:41.526 [DEBUG] [main] >>> -Dio.netty.allocator.smallCacheSize: 256
+02-26 15:50:41.526 [DEBUG] [main] >>> -Dio.netty.allocator.normalCacheSize: 64
+02-26 15:50:41.526 [DEBUG] [main] >>> -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+02-26 15:50:41.526 [DEBUG] [main] >>> -Dio.netty.allocator.cacheTrimInterval: 8192
+02-26 15:50:41.526 [DEBUG] [main] >>> -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+02-26 15:50:41.527 [DEBUG] [main] >>> -Dio.netty.allocator.useCacheForAllThreads: true
+02-26 15:50:41.527 [DEBUG] [main] >>> -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+02-26 15:50:41.534 [DEBUG] [main] >>> -Dio.netty.allocator.type: pooled
+02-26 15:50:41.534 [DEBUG] [main] >>> -Dio.netty.threadLocalDirectBufferSize: 0
+02-26 15:50:41.534 [DEBUG] [main] >>> -Dio.netty.maxThreadLocalCharBufferSize: 16384
+02-26 15:50:41.541 [INFO ] [main] >>> Server started successfully
+02-26 15:50:41.542 [INFO ] [main] >>> Starting push server at : 8084
+02-26 15:50:41.547 [INFO ] [main] >>> Server push started successfully
+02-26 15:50:49.475 [INFO ] [nioEventLoopGroup-3-1] >>> [/192.168.1.200:8085] Channel Active, Concurrent Channel : 1
+02-26 15:50:49.484 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.maxCapacityPerThread: 4096
+02-26 15:50:49.484 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.maxSharedCapacityFactor: 2
+02-26 15:50:49.484 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.linkCapacity: 16
+02-26 15:50:49.484 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.ratio: 8
+02-26 15:50:49.484 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.delayedQueue.ratio: 8
+02-26 15:50:49.489 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.buffer.checkAccessible: true
+02-26 15:50:49.490 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.buffer.checkBounds: true
+02-26 15:50:49.490 [DEBUG] [nioEventLoopGroup-3-1] >>> Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@341e15e7
+02-26 15:50:49.502 [TRACE] [nioEventLoopGroup-3-1] >>> [READ Len] 25, [Temp Buffer Len] 0 ===> 01, 01, DB, 76, C3, 03, 66, 00, 0D, 00, 00, 00, 00, 00, 01, 50, 00, 00, 00, 00, 09, 64, CC, A2, 04
+
+02-26 15:50:49.502 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] f, [Packet Length] 25, [ML] 13
+02-26 15:50:49.502 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] f, [완성된 패킷] 길이 25 ===> 01, 01, DB, 76, C3, 03, 66, 00, 0D, 00, 00, 00, 00, 00, 01, 50, 00, 00, 00, 00, 09, 64, CC, A2, 04
+
+02-26 15:50:49.506 [INFO ] [nioEventLoopGroup-3-1] >>> Concurrent Channel : 1
+02-26 15:50:49.669 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 환경부 충전소 ID : 
+02-26 15:50:49.669 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_version : CPP2007070
+02-26 15:50:49.669 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_link : 
+02-26 15:50:49.670 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_name : 
+02-26 15:50:49.670 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_size : 0
+02-26 15:50:49.670 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_filename : 
+02-26 15:50:49.670 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> charger type : slow
+02-26 15:50:49.670 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> manufacturer : 0
+02-26 15:50:49.671 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> model code : 
+02-26 15:50:49.671 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> concurrent channel : 1
+02-26 15:50:49.671 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> firmware version : CPP2007070
+02-26 15:50:49.671 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> sound : 0
+02-26 15:50:49.672 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> channel : 0
+02-26 15:50:49.672 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 충전 요규 전력량 : 0
+02-26 15:50:49.672 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 충전 설정 전류량 : 0
+02-26 15:50:49.672 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 채널 설정 전류량 : 0
+02-26 15:50:49.672 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 충전단가 : [10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
+02-26 15:50:49.673 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 비회원 단가 : 11000
+02-26 15:50:49.673 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing RECV f]
+채널 : 0
+충전기 상태 : 0
+충천기 사용 전력량 : 336
+온도 : 0.0
+습도 : 0.0
+이벤트 코드 : 9
+RSSI : 100
+
+02-26 15:50:49.693 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] Packet log send, 명령어 : f, 
+02-26 15:50:49.702 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing SEND f]
+응답코드 : 0
+현재 시간 : 210226155049
+
+02-26 15:54:20.385 [INFO ] [main] >>> Enviroment [Port : 8085]
+02-26 15:54:20.387 [INFO ] [main] >>> Enviroment [Refresh Charger : 1 min]
+02-26 15:54:20.387 [INFO ] [main] >>> Enviroment [Ignore CRC Error ENABLED]
+02-26 15:54:20.387 [INFO ] [main] >>> Enviroment [Debug Mode ENABLED]
+02-26 15:54:20.387 [INFO ] [main] >>> Enviroment [Print Debug Log ENABLED]
+02-26 15:54:20.387 [INFO ] [main] >>> Enviroment [Ignore ME API DISABLED]
+02-26 15:54:20.387 [INFO ] [main] >>> Enviroment [Packet Log Write Mode : Disable]
+02-26 15:54:20.387 [INFO ] [main] >>> Enviroment [Firmware Read Mode : Web API]
+02-26 15:54:20.445 [INFO ] [main] >>> Enviroment [Web Server Uri : https://test-manage.evrang.com]
+02-26 15:54:21.266 [DEBUG] [main] >>> Using SLF4J as the default logging framework
+02-26 15:54:21.268 [DEBUG] [main] >>> -Dio.netty.eventLoopThreads: 12
+02-26 15:54:21.281 [DEBUG] [main] >>> -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+02-26 15:54:21.281 [DEBUG] [main] >>> -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+02-26 15:54:21.287 [DEBUG] [main] >>> -Dio.netty.noKeySetOptimization: false
+02-26 15:54:21.287 [DEBUG] [main] >>> -Dio.netty.selectorAutoRebuildThreshold: 512
+02-26 15:54:21.298 [DEBUG] [main] >>> Platform: Windows
+02-26 15:54:21.299 [DEBUG] [main] >>> -Dio.netty.noUnsafe: false
+02-26 15:54:21.299 [DEBUG] [main] >>> Java version: 8
+02-26 15:54:21.300 [DEBUG] [main] >>> sun.misc.Unsafe.theUnsafe: available
+02-26 15:54:21.300 [DEBUG] [main] >>> sun.misc.Unsafe.copyMemory: available
+02-26 15:54:21.301 [DEBUG] [main] >>> java.nio.Buffer.address: available
+02-26 15:54:21.301 [DEBUG] [main] >>> direct buffer constructor: available
+02-26 15:54:21.302 [DEBUG] [main] >>> java.nio.Bits.unaligned: available, true
+02-26 15:54:21.302 [DEBUG] [main] >>> jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+02-26 15:54:21.302 [DEBUG] [main] >>> java.nio.DirectByteBuffer.<init>(long, int): available
+02-26 15:54:21.302 [DEBUG] [main] >>> sun.misc.Unsafe: available
+02-26 15:54:21.302 [DEBUG] [main] >>> -Dio.netty.tmpdir: C:\Users\skpark\AppData\Local\Temp (java.io.tmpdir)
+02-26 15:54:21.303 [DEBUG] [main] >>> -Dio.netty.bitMode: 64 (sun.arch.data.model)
+02-26 15:54:21.303 [DEBUG] [main] >>> -Dio.netty.maxDirectMemory: 3806855168 bytes
+02-26 15:54:21.303 [DEBUG] [main] >>> -Dio.netty.uninitializedArrayAllocationThreshold: -1
+02-26 15:54:21.304 [DEBUG] [main] >>> java.nio.ByteBuffer.cleaner(): available
+02-26 15:54:21.304 [DEBUG] [main] >>> -Dio.netty.noPreferDirect: false
+02-26 15:54:21.310 [DEBUG] [main] >>> org.jctools-core.MpscChunkedArrayQueue: available
+02-26 15:54:21.319 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@15dcfae7
+02-26 15:54:21.320 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@115667d
+02-26 15:54:21.320 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@736caf7a
+02-26 15:54:21.321 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4ce7fffa
+02-26 15:54:21.321 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@497486b3
+02-26 15:54:21.322 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@63f8276e
+02-26 15:54:21.322 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@75f95314
+02-26 15:54:21.323 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6127a7e
+02-26 15:54:21.323 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6bbe2511
+02-26 15:54:21.324 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@495fac5f
+02-26 15:54:21.324 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@76012793
+02-26 15:54:21.325 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@635572a7
+02-26 15:54:21.326 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7cf6a5f9
+02-26 15:54:21.327 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@623e088f
+02-26 15:54:21.327 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@39fcbef6
+02-26 15:54:21.328 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@66565121
+02-26 15:54:21.328 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2fc6f97f
+02-26 15:54:21.329 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3d2ee678
+02-26 15:54:21.329 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6179e425
+02-26 15:54:21.330 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@35f26e72
+02-26 15:54:21.330 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2d6764b2
+02-26 15:54:21.331 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@67304a40
+02-26 15:54:21.331 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@49c6c24f
+02-26 15:54:21.332 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6fe1b4fb
+02-26 15:54:21.332 [INFO ] [main] >>> Starting server at : 8085
+02-26 15:54:21.347 [DEBUG] [main] >>> -Dio.netty.processId: 17724 (auto-detected)
+02-26 15:54:21.349 [DEBUG] [main] >>> -Djava.net.preferIPv4Stack: false
+02-26 15:54:21.349 [DEBUG] [main] >>> -Djava.net.preferIPv6Addresses: false
+02-26 15:54:21.605 [DEBUG] [main] >>> Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+02-26 15:54:21.606 [DEBUG] [main] >>> Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+02-26 15:54:21.870 [DEBUG] [main] >>> -Dio.netty.machineId: e0:d5:5e:ff:fe:48:3f:43 (auto-detected)
+02-26 15:54:21.878 [DEBUG] [main] >>> -Dio.netty.leakDetection.level: simple
+02-26 15:54:21.878 [DEBUG] [main] >>> -Dio.netty.leakDetection.targetRecords: 4
+02-26 15:54:21.896 [DEBUG] [main] >>> -Dio.netty.allocator.numHeapArenas: 12
+02-26 15:54:21.896 [DEBUG] [main] >>> -Dio.netty.allocator.numDirectArenas: 12
+02-26 15:54:21.896 [DEBUG] [main] >>> -Dio.netty.allocator.pageSize: 8192
+02-26 15:54:21.896 [DEBUG] [main] >>> -Dio.netty.allocator.maxOrder: 11
+02-26 15:54:21.896 [DEBUG] [main] >>> -Dio.netty.allocator.chunkSize: 16777216
+02-26 15:54:21.896 [DEBUG] [main] >>> -Dio.netty.allocator.smallCacheSize: 256
+02-26 15:54:21.896 [DEBUG] [main] >>> -Dio.netty.allocator.normalCacheSize: 64
+02-26 15:54:21.896 [DEBUG] [main] >>> -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+02-26 15:54:21.897 [DEBUG] [main] >>> -Dio.netty.allocator.cacheTrimInterval: 8192
+02-26 15:54:21.897 [DEBUG] [main] >>> -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+02-26 15:54:21.897 [DEBUG] [main] >>> -Dio.netty.allocator.useCacheForAllThreads: true
+02-26 15:54:21.897 [DEBUG] [main] >>> -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+02-26 15:54:21.904 [DEBUG] [main] >>> -Dio.netty.allocator.type: pooled
+02-26 15:54:21.904 [DEBUG] [main] >>> -Dio.netty.threadLocalDirectBufferSize: 0
+02-26 15:54:21.904 [DEBUG] [main] >>> -Dio.netty.maxThreadLocalCharBufferSize: 16384
+02-26 15:54:21.911 [INFO ] [main] >>> Server started successfully
+02-26 15:54:21.911 [INFO ] [main] >>> Starting push server at : 8084
+02-26 15:54:21.917 [INFO ] [main] >>> Server push started successfully
+02-26 15:54:32.777 [INFO ] [nioEventLoopGroup-3-1] >>> [/192.168.1.200:8085] Channel Active, Concurrent Channel : 1
+02-26 15:54:32.787 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.maxCapacityPerThread: 4096
+02-26 15:54:32.787 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.maxSharedCapacityFactor: 2
+02-26 15:54:32.787 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.linkCapacity: 16
+02-26 15:54:32.787 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.ratio: 8
+02-26 15:54:32.787 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.delayedQueue.ratio: 8
+02-26 15:54:32.793 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.buffer.checkAccessible: true
+02-26 15:54:32.793 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.buffer.checkBounds: true
+02-26 15:54:32.794 [DEBUG] [nioEventLoopGroup-3-1] >>> Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5b64d6cb
+02-26 15:54:32.806 [TRACE] [nioEventLoopGroup-3-1] >>> [READ Len] 25, [Temp Buffer Len] 0 ===> 01, 01, DB, 76, C3, 03, 66, 00, 0D, 00, 00, 00, 00, 00, 01, 50, 00, 00, 00, 00, 09, 64, CC, A2, 04
+
+02-26 15:54:32.806 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] f, [Packet Length] 25, [ML] 13
+02-26 15:54:32.807 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] f, [완성된 패킷] 길이 25 ===> 01, 01, DB, 76, C3, 03, 66, 00, 0D, 00, 00, 00, 00, 00, 01, 50, 00, 00, 00, 00, 09, 64, CC, A2, 04
+
+02-26 15:54:32.810 [INFO ] [nioEventLoopGroup-3-1] >>> Concurrent Channel : 1
+02-26 15:54:32.961 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 환경부 충전소 ID : 
+02-26 15:54:32.961 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_version : CPP2007070
+02-26 15:54:32.962 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_link : 
+02-26 15:54:32.962 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_name : 
+02-26 15:54:32.962 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_size : 0
+02-26 15:54:32.962 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_filename : 
+02-26 15:54:32.962 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> charger type : slow
+02-26 15:54:32.962 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> manufacturer : 0
+02-26 15:54:32.962 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> model code : 
+02-26 15:54:32.962 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> concurrent channel : 1
+02-26 15:54:32.963 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> firmware version : CPP2007070
+02-26 15:54:32.963 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> sound : 0
+02-26 15:54:32.963 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> channel : 0
+02-26 15:54:32.963 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 충전 요규 전력량 : 0
+02-26 15:54:32.963 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 충전 설정 전류량 : 0
+02-26 15:54:32.963 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 채널 설정 전류량 : 0
+02-26 15:54:32.963 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 충전단가 : [10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
+02-26 15:54:32.964 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 비회원 단가 : 11000
+02-26 15:54:32.964 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing RECV f]
+채널 : 0
+충전기 상태 : 0
+충천기 사용 전력량 : 336
+온도 : 0.0
+습도 : 0.0
+이벤트 코드 : 9
+RSSI : 100
+
+02-26 15:54:32.983 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] Packet log send, 명령어 : f, 
+02-26 15:54:32.992 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing SEND f]
+응답코드 : 0
+현재 시간 : 210226155432
+
+02-26 16:00:10.528 [INFO ] [main] >>> Enviroment [Port : 8085]
+02-26 16:00:10.530 [INFO ] [main] >>> Enviroment [Refresh Charger : 1 min]
+02-26 16:00:10.531 [INFO ] [main] >>> Enviroment [Ignore CRC Error ENABLED]
+02-26 16:00:10.531 [INFO ] [main] >>> Enviroment [Debug Mode ENABLED]
+02-26 16:00:10.531 [INFO ] [main] >>> Enviroment [Print Debug Log ENABLED]
+02-26 16:00:10.531 [INFO ] [main] >>> Enviroment [Ignore ME API DISABLED]
+02-26 16:00:10.531 [INFO ] [main] >>> Enviroment [Packet Log Write Mode : Disable]
+02-26 16:00:10.531 [INFO ] [main] >>> Enviroment [Firmware Read Mode : Web API]
+02-26 16:00:10.608 [INFO ] [main] >>> Enviroment [Web Server Uri : https://test-manage.evrang.com]
+02-26 16:00:12.096 [DEBUG] [main] >>> Using SLF4J as the default logging framework
+02-26 16:00:12.100 [DEBUG] [main] >>> -Dio.netty.eventLoopThreads: 12
+02-26 16:00:12.118 [DEBUG] [main] >>> -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+02-26 16:00:12.118 [DEBUG] [main] >>> -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+02-26 16:00:12.127 [DEBUG] [main] >>> -Dio.netty.noKeySetOptimization: false
+02-26 16:00:12.128 [DEBUG] [main] >>> -Dio.netty.selectorAutoRebuildThreshold: 512
+02-26 16:00:12.145 [DEBUG] [main] >>> Platform: Windows
+02-26 16:00:12.150 [DEBUG] [main] >>> -Dio.netty.noUnsafe: false
+02-26 16:00:12.151 [DEBUG] [main] >>> Java version: 8
+02-26 16:00:12.153 [DEBUG] [main] >>> sun.misc.Unsafe.theUnsafe: available
+02-26 16:00:12.155 [DEBUG] [main] >>> sun.misc.Unsafe.copyMemory: available
+02-26 16:00:12.156 [DEBUG] [main] >>> java.nio.Buffer.address: available
+02-26 16:00:12.157 [DEBUG] [main] >>> direct buffer constructor: available
+02-26 16:00:12.158 [DEBUG] [main] >>> java.nio.Bits.unaligned: available, true
+02-26 16:00:12.158 [DEBUG] [main] >>> jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+02-26 16:00:12.159 [DEBUG] [main] >>> java.nio.DirectByteBuffer.<init>(long, int): available
+02-26 16:00:12.159 [DEBUG] [main] >>> sun.misc.Unsafe: available
+02-26 16:00:12.160 [DEBUG] [main] >>> -Dio.netty.tmpdir: C:\Users\skpark\AppData\Local\Temp (java.io.tmpdir)
+02-26 16:00:12.161 [DEBUG] [main] >>> -Dio.netty.bitMode: 64 (sun.arch.data.model)
+02-26 16:00:12.162 [DEBUG] [main] >>> -Dio.netty.maxDirectMemory: 3806855168 bytes
+02-26 16:00:12.163 [DEBUG] [main] >>> -Dio.netty.uninitializedArrayAllocationThreshold: -1
+02-26 16:00:12.167 [DEBUG] [main] >>> java.nio.ByteBuffer.cleaner(): available
+02-26 16:00:12.167 [DEBUG] [main] >>> -Dio.netty.noPreferDirect: false
+02-26 16:00:12.177 [DEBUG] [main] >>> org.jctools-core.MpscChunkedArrayQueue: available
+02-26 16:00:12.197 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6bbe2511
+02-26 16:00:12.198 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@635572a7
+02-26 16:00:12.199 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@79d94571
+02-26 16:00:12.200 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4dd02341
+02-26 16:00:12.201 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3212a8d7
+02-26 16:00:12.212 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7a1a3478
+02-26 16:00:12.217 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@495b0487
+02-26 16:00:12.218 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@55dfcc6
+02-26 16:00:12.225 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@222eb8aa
+02-26 16:00:12.226 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@93cf163
+02-26 16:00:12.227 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1852a3ff
+02-26 16:00:12.228 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7203c7ff
+02-26 16:00:12.230 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@49c6c24f
+02-26 16:00:12.233 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6fe1b4fb
+02-26 16:00:12.235 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@79351f41
+02-26 16:00:12.236 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1c32386d
+02-26 16:00:12.240 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6399551e
+02-26 16:00:12.241 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@13d73fa
+02-26 16:00:12.241 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5023bb8b
+02-26 16:00:12.243 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5d5f10b2
+02-26 16:00:12.244 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@74c79fa2
+02-26 16:00:12.252 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1e0f9063
+02-26 16:00:12.253 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@53bd8fca
+02-26 16:00:12.261 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7642df8f
+02-26 16:00:12.262 [INFO ] [main] >>> Starting server at : 8085
+02-26 16:00:12.316 [DEBUG] [main] >>> -Dio.netty.processId: 1144 (auto-detected)
+02-26 16:00:12.329 [DEBUG] [main] >>> -Djava.net.preferIPv4Stack: false
+02-26 16:00:12.330 [DEBUG] [main] >>> -Djava.net.preferIPv6Addresses: false
+02-26 16:00:12.730 [DEBUG] [main] >>> Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+02-26 16:00:12.731 [DEBUG] [main] >>> Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+02-26 16:00:13.058 [DEBUG] [main] >>> -Dio.netty.machineId: e0:d5:5e:ff:fe:48:3f:43 (auto-detected)
+02-26 16:00:13.072 [DEBUG] [main] >>> -Dio.netty.leakDetection.level: simple
+02-26 16:00:13.074 [DEBUG] [main] >>> -Dio.netty.leakDetection.targetRecords: 4
+02-26 16:00:13.118 [DEBUG] [main] >>> -Dio.netty.allocator.numHeapArenas: 12
+02-26 16:00:13.118 [DEBUG] [main] >>> -Dio.netty.allocator.numDirectArenas: 12
+02-26 16:00:13.118 [DEBUG] [main] >>> -Dio.netty.allocator.pageSize: 8192
+02-26 16:00:13.118 [DEBUG] [main] >>> -Dio.netty.allocator.maxOrder: 11
+02-26 16:00:13.118 [DEBUG] [main] >>> -Dio.netty.allocator.chunkSize: 16777216
+02-26 16:00:13.118 [DEBUG] [main] >>> -Dio.netty.allocator.smallCacheSize: 256
+02-26 16:00:13.118 [DEBUG] [main] >>> -Dio.netty.allocator.normalCacheSize: 64
+02-26 16:00:13.119 [DEBUG] [main] >>> -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+02-26 16:00:13.119 [DEBUG] [main] >>> -Dio.netty.allocator.cacheTrimInterval: 8192
+02-26 16:00:13.119 [DEBUG] [main] >>> -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+02-26 16:00:13.119 [DEBUG] [main] >>> -Dio.netty.allocator.useCacheForAllThreads: true
+02-26 16:00:13.119 [DEBUG] [main] >>> -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+02-26 16:00:13.139 [DEBUG] [main] >>> -Dio.netty.allocator.type: pooled
+02-26 16:00:13.139 [DEBUG] [main] >>> -Dio.netty.threadLocalDirectBufferSize: 0
+02-26 16:00:13.139 [DEBUG] [main] >>> -Dio.netty.maxThreadLocalCharBufferSize: 16384
+02-26 16:00:13.165 [INFO ] [main] >>> Server started successfully
+02-26 16:00:13.165 [INFO ] [main] >>> Starting push server at : 8084
+02-26 16:00:13.222 [INFO ] [main] >>> Server push started successfully
+02-26 16:00:16.288 [INFO ] [nioEventLoopGroup-3-1] >>> [/192.168.1.200:8085] Channel Active, Concurrent Channel : 1
+02-26 16:00:16.302 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.maxCapacityPerThread: 4096
+02-26 16:00:16.302 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.maxSharedCapacityFactor: 2
+02-26 16:00:16.302 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.linkCapacity: 16
+02-26 16:00:16.302 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.ratio: 8
+02-26 16:00:16.302 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.delayedQueue.ratio: 8
+02-26 16:00:16.308 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.buffer.checkAccessible: true
+02-26 16:00:16.308 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.buffer.checkBounds: true
+02-26 16:00:16.309 [DEBUG] [nioEventLoopGroup-3-1] >>> Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@570b7004
+02-26 16:00:16.323 [TRACE] [nioEventLoopGroup-3-1] >>> [READ Len] 25, [Temp Buffer Len] 0 ===> 01, 01, DB, 76, C3, 03, 66, 00, 0D, 00, 00, 00, 00, 00, 01, 50, 00, 00, 00, 00, 09, 64, CC, A2, 04
+
+02-26 16:00:16.323 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] f, [Packet Length] 25, [ML] 13
+02-26 16:00:16.323 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] f, [완성된 패킷] 길이 25 ===> 01, 01, DB, 76, C3, 03, 66, 00, 0D, 00, 00, 00, 00, 00, 01, 50, 00, 00, 00, 00, 09, 64, CC, A2, 04
+
+02-26 16:00:16.328 [INFO ] [nioEventLoopGroup-3-1] >>> Concurrent Channel : 1
+02-26 16:00:16.477 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 환경부 충전소 ID : 
+02-26 16:00:16.477 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_version : CPP2007070
+02-26 16:00:16.477 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_link : 
+02-26 16:00:16.477 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_name : 
+02-26 16:00:16.477 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_size : 0
+02-26 16:00:16.478 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_filename : 
+02-26 16:00:16.478 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> charger type : slow
+02-26 16:00:16.478 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> manufacturer : 0
+02-26 16:00:16.478 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> model code : 
+02-26 16:00:16.478 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> concurrent channel : 1
+02-26 16:00:16.478 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> firmware version : CPP2007070
+02-26 16:00:16.478 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> sound : 0
+02-26 16:00:16.478 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> channel : 0
+02-26 16:00:16.478 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 충전 요규 전력량 : 0
+02-26 16:00:16.478 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 충전 설정 전류량 : 0
+02-26 16:00:16.478 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 채널 설정 전류량 : 0
+02-26 16:00:16.478 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 충전단가 : [10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
+02-26 16:00:16.478 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 비회원 단가 : 11000
+02-26 16:00:16.479 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing RECV f]
+채널 : 0
+충전기 상태 : 0
+충천기 사용 전력량 : 336
+온도 : 0.0
+습도 : 0.0
+이벤트 코드 : 9
+RSSI : 100
+
+02-26 16:00:16.493 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] Packet log send, 명령어 : f, 
+02-26 16:00:16.502 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing SEND f]
+응답코드 : 0
+현재 시간 : 210226160016
+
+02-26 16:00:21.431 [INFO ] [main] >>> Enviroment [Port : 8085]
+02-26 16:00:21.432 [INFO ] [main] >>> Enviroment [Refresh Charger : 1 min]
+02-26 16:00:21.433 [INFO ] [main] >>> Enviroment [Ignore CRC Error ENABLED]
+02-26 16:00:21.433 [INFO ] [main] >>> Enviroment [Debug Mode ENABLED]
+02-26 16:00:21.433 [INFO ] [main] >>> Enviroment [Print Debug Log ENABLED]
+02-26 16:00:21.433 [INFO ] [main] >>> Enviroment [Ignore ME API DISABLED]
+02-26 16:00:21.433 [INFO ] [main] >>> Enviroment [Packet Log Write Mode : Disable]
+02-26 16:00:21.433 [INFO ] [main] >>> Enviroment [Firmware Read Mode : Web API]
+02-26 16:00:21.494 [INFO ] [main] >>> Enviroment [Web Server Uri : https://test-manage.evrang.com]
+02-26 16:00:22.304 [DEBUG] [main] >>> Using SLF4J as the default logging framework
+02-26 16:00:22.307 [DEBUG] [main] >>> -Dio.netty.eventLoopThreads: 12
+02-26 16:00:22.319 [DEBUG] [main] >>> -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+02-26 16:00:22.320 [DEBUG] [main] >>> -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+02-26 16:00:22.325 [DEBUG] [main] >>> -Dio.netty.noKeySetOptimization: false
+02-26 16:00:22.325 [DEBUG] [main] >>> -Dio.netty.selectorAutoRebuildThreshold: 512
+02-26 16:00:22.336 [DEBUG] [main] >>> Platform: Windows
+02-26 16:00:22.338 [DEBUG] [main] >>> -Dio.netty.noUnsafe: false
+02-26 16:00:22.338 [DEBUG] [main] >>> Java version: 8
+02-26 16:00:22.338 [DEBUG] [main] >>> sun.misc.Unsafe.theUnsafe: available
+02-26 16:00:22.338 [DEBUG] [main] >>> sun.misc.Unsafe.copyMemory: available
+02-26 16:00:22.338 [DEBUG] [main] >>> java.nio.Buffer.address: available
+02-26 16:00:22.339 [DEBUG] [main] >>> direct buffer constructor: available
+02-26 16:00:22.339 [DEBUG] [main] >>> java.nio.Bits.unaligned: available, true
+02-26 16:00:22.339 [DEBUG] [main] >>> jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+02-26 16:00:22.340 [DEBUG] [main] >>> java.nio.DirectByteBuffer.<init>(long, int): available
+02-26 16:00:22.340 [DEBUG] [main] >>> sun.misc.Unsafe: available
+02-26 16:00:22.340 [DEBUG] [main] >>> -Dio.netty.tmpdir: C:\Users\skpark\AppData\Local\Temp (java.io.tmpdir)
+02-26 16:00:22.340 [DEBUG] [main] >>> -Dio.netty.bitMode: 64 (sun.arch.data.model)
+02-26 16:00:22.341 [DEBUG] [main] >>> -Dio.netty.maxDirectMemory: 3806855168 bytes
+02-26 16:00:22.341 [DEBUG] [main] >>> -Dio.netty.uninitializedArrayAllocationThreshold: -1
+02-26 16:00:22.342 [DEBUG] [main] >>> java.nio.ByteBuffer.cleaner(): available
+02-26 16:00:22.342 [DEBUG] [main] >>> -Dio.netty.noPreferDirect: false
+02-26 16:00:22.348 [DEBUG] [main] >>> org.jctools-core.MpscChunkedArrayQueue: available
+02-26 16:00:22.357 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@15dcfae7
+02-26 16:00:22.358 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@115667d
+02-26 16:00:22.359 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@736caf7a
+02-26 16:00:22.359 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4ce7fffa
+02-26 16:00:22.360 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@497486b3
+02-26 16:00:22.360 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@63f8276e
+02-26 16:00:22.361 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@75f95314
+02-26 16:00:22.361 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6127a7e
+02-26 16:00:22.362 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6bbe2511
+02-26 16:00:22.362 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@495fac5f
+02-26 16:00:22.363 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@76012793
+02-26 16:00:22.364 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@635572a7
+02-26 16:00:22.365 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7cf6a5f9
+02-26 16:00:22.365 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@623e088f
+02-26 16:00:22.366 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@39fcbef6
+02-26 16:00:22.366 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@66565121
+02-26 16:00:22.367 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2fc6f97f
+02-26 16:00:22.367 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3d2ee678
+02-26 16:00:22.368 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6179e425
+02-26 16:00:22.369 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@35f26e72
+02-26 16:00:22.369 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2d6764b2
+02-26 16:00:22.370 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@67304a40
+02-26 16:00:22.370 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@49c6c24f
+02-26 16:00:22.371 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6fe1b4fb
+02-26 16:00:22.371 [INFO ] [main] >>> Starting server at : 8085
+02-26 16:00:22.386 [DEBUG] [main] >>> -Dio.netty.processId: 8132 (auto-detected)
+02-26 16:00:22.388 [DEBUG] [main] >>> -Djava.net.preferIPv4Stack: false
+02-26 16:00:22.388 [DEBUG] [main] >>> -Djava.net.preferIPv6Addresses: false
+02-26 16:00:22.654 [DEBUG] [main] >>> Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+02-26 16:00:22.655 [DEBUG] [main] >>> Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+02-26 16:00:22.920 [DEBUG] [main] >>> -Dio.netty.machineId: e0:d5:5e:ff:fe:48:3f:43 (auto-detected)
+02-26 16:00:22.929 [DEBUG] [main] >>> -Dio.netty.leakDetection.level: simple
+02-26 16:00:22.929 [DEBUG] [main] >>> -Dio.netty.leakDetection.targetRecords: 4
+02-26 16:00:22.947 [DEBUG] [main] >>> -Dio.netty.allocator.numHeapArenas: 12
+02-26 16:00:22.947 [DEBUG] [main] >>> -Dio.netty.allocator.numDirectArenas: 12
+02-26 16:00:22.947 [DEBUG] [main] >>> -Dio.netty.allocator.pageSize: 8192
+02-26 16:00:22.947 [DEBUG] [main] >>> -Dio.netty.allocator.maxOrder: 11
+02-26 16:00:22.947 [DEBUG] [main] >>> -Dio.netty.allocator.chunkSize: 16777216
+02-26 16:00:22.947 [DEBUG] [main] >>> -Dio.netty.allocator.smallCacheSize: 256
+02-26 16:00:22.947 [DEBUG] [main] >>> -Dio.netty.allocator.normalCacheSize: 64
+02-26 16:00:22.947 [DEBUG] [main] >>> -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+02-26 16:00:22.947 [DEBUG] [main] >>> -Dio.netty.allocator.cacheTrimInterval: 8192
+02-26 16:00:22.947 [DEBUG] [main] >>> -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+02-26 16:00:22.948 [DEBUG] [main] >>> -Dio.netty.allocator.useCacheForAllThreads: true
+02-26 16:00:22.948 [DEBUG] [main] >>> -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+02-26 16:00:22.956 [DEBUG] [main] >>> -Dio.netty.allocator.type: pooled
+02-26 16:00:22.956 [DEBUG] [main] >>> -Dio.netty.threadLocalDirectBufferSize: 0
+02-26 16:00:22.956 [DEBUG] [main] >>> -Dio.netty.maxThreadLocalCharBufferSize: 16384
+02-26 16:00:22.962 [INFO ] [main] >>> Stopping server all
+02-26 16:00:37.786 [INFO ] [main] >>> Enviroment [Port : 8085]
+02-26 16:00:37.787 [INFO ] [main] >>> Enviroment [Refresh Charger : 1 min]
+02-26 16:00:37.788 [INFO ] [main] >>> Enviroment [Ignore CRC Error ENABLED]
+02-26 16:00:37.788 [INFO ] [main] >>> Enviroment [Debug Mode ENABLED]
+02-26 16:00:37.788 [INFO ] [main] >>> Enviroment [Print Debug Log ENABLED]
+02-26 16:00:37.788 [INFO ] [main] >>> Enviroment [Ignore ME API DISABLED]
+02-26 16:00:37.788 [INFO ] [main] >>> Enviroment [Packet Log Write Mode : Disable]
+02-26 16:00:37.788 [INFO ] [main] >>> Enviroment [Firmware Read Mode : Web API]
+02-26 16:00:37.849 [INFO ] [main] >>> Enviroment [Web Server Uri : https://test-manage.evrang.com]
+02-26 16:00:38.678 [DEBUG] [main] >>> Using SLF4J as the default logging framework
+02-26 16:00:38.680 [DEBUG] [main] >>> -Dio.netty.eventLoopThreads: 12
+02-26 16:00:38.692 [DEBUG] [main] >>> -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+02-26 16:00:38.693 [DEBUG] [main] >>> -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+02-26 16:00:38.698 [DEBUG] [main] >>> -Dio.netty.noKeySetOptimization: false
+02-26 16:00:38.698 [DEBUG] [main] >>> -Dio.netty.selectorAutoRebuildThreshold: 512
+02-26 16:00:38.709 [DEBUG] [main] >>> Platform: Windows
+02-26 16:00:38.711 [DEBUG] [main] >>> -Dio.netty.noUnsafe: false
+02-26 16:00:38.711 [DEBUG] [main] >>> Java version: 8
+02-26 16:00:38.712 [DEBUG] [main] >>> sun.misc.Unsafe.theUnsafe: available
+02-26 16:00:38.712 [DEBUG] [main] >>> sun.misc.Unsafe.copyMemory: available
+02-26 16:00:38.713 [DEBUG] [main] >>> java.nio.Buffer.address: available
+02-26 16:00:38.713 [DEBUG] [main] >>> direct buffer constructor: available
+02-26 16:00:38.714 [DEBUG] [main] >>> java.nio.Bits.unaligned: available, true
+02-26 16:00:38.714 [DEBUG] [main] >>> jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+02-26 16:00:38.714 [DEBUG] [main] >>> java.nio.DirectByteBuffer.<init>(long, int): available
+02-26 16:00:38.714 [DEBUG] [main] >>> sun.misc.Unsafe: available
+02-26 16:00:38.714 [DEBUG] [main] >>> -Dio.netty.tmpdir: C:\Users\skpark\AppData\Local\Temp (java.io.tmpdir)
+02-26 16:00:38.715 [DEBUG] [main] >>> -Dio.netty.bitMode: 64 (sun.arch.data.model)
+02-26 16:00:38.715 [DEBUG] [main] >>> -Dio.netty.maxDirectMemory: 3806855168 bytes
+02-26 16:00:38.715 [DEBUG] [main] >>> -Dio.netty.uninitializedArrayAllocationThreshold: -1
+02-26 16:00:38.716 [DEBUG] [main] >>> java.nio.ByteBuffer.cleaner(): available
+02-26 16:00:38.716 [DEBUG] [main] >>> -Dio.netty.noPreferDirect: false
+02-26 16:00:38.722 [DEBUG] [main] >>> org.jctools-core.MpscChunkedArrayQueue: available
+02-26 16:00:38.731 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@15dcfae7
+02-26 16:00:38.732 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@115667d
+02-26 16:00:38.732 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@736caf7a
+02-26 16:00:38.733 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4ce7fffa
+02-26 16:00:38.733 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@497486b3
+02-26 16:00:38.734 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@63f8276e
+02-26 16:00:38.735 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@75f95314
+02-26 16:00:38.735 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6127a7e
+02-26 16:00:38.736 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6bbe2511
+02-26 16:00:38.736 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@495fac5f
+02-26 16:00:38.737 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@76012793
+02-26 16:00:38.737 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@635572a7
+02-26 16:00:38.738 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7cf6a5f9
+02-26 16:00:38.739 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@623e088f
+02-26 16:00:38.739 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@39fcbef6
+02-26 16:00:38.740 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@66565121
+02-26 16:00:38.740 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2fc6f97f
+02-26 16:00:38.741 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3d2ee678
+02-26 16:00:38.741 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6179e425
+02-26 16:00:38.742 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@35f26e72
+02-26 16:00:38.742 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2d6764b2
+02-26 16:00:38.743 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@67304a40
+02-26 16:00:38.744 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@49c6c24f
+02-26 16:00:38.744 [TRACE] [main] >>> instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6fe1b4fb
+02-26 16:00:38.744 [INFO ] [main] >>> Starting server at : 8085
+02-26 16:00:38.759 [DEBUG] [main] >>> -Dio.netty.processId: 9124 (auto-detected)
+02-26 16:00:38.761 [DEBUG] [main] >>> -Djava.net.preferIPv4Stack: false
+02-26 16:00:38.761 [DEBUG] [main] >>> -Djava.net.preferIPv6Addresses: false
+02-26 16:00:39.018 [DEBUG] [main] >>> Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+02-26 16:00:39.019 [DEBUG] [main] >>> Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+02-26 16:00:39.289 [DEBUG] [main] >>> -Dio.netty.machineId: e0:d5:5e:ff:fe:48:3f:43 (auto-detected)
+02-26 16:00:39.298 [DEBUG] [main] >>> -Dio.netty.leakDetection.level: simple
+02-26 16:00:39.298 [DEBUG] [main] >>> -Dio.netty.leakDetection.targetRecords: 4
+02-26 16:00:39.316 [DEBUG] [main] >>> -Dio.netty.allocator.numHeapArenas: 12
+02-26 16:00:39.317 [DEBUG] [main] >>> -Dio.netty.allocator.numDirectArenas: 12
+02-26 16:00:39.317 [DEBUG] [main] >>> -Dio.netty.allocator.pageSize: 8192
+02-26 16:00:39.317 [DEBUG] [main] >>> -Dio.netty.allocator.maxOrder: 11
+02-26 16:00:39.317 [DEBUG] [main] >>> -Dio.netty.allocator.chunkSize: 16777216
+02-26 16:00:39.317 [DEBUG] [main] >>> -Dio.netty.allocator.smallCacheSize: 256
+02-26 16:00:39.317 [DEBUG] [main] >>> -Dio.netty.allocator.normalCacheSize: 64
+02-26 16:00:39.317 [DEBUG] [main] >>> -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+02-26 16:00:39.317 [DEBUG] [main] >>> -Dio.netty.allocator.cacheTrimInterval: 8192
+02-26 16:00:39.317 [DEBUG] [main] >>> -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+02-26 16:00:39.318 [DEBUG] [main] >>> -Dio.netty.allocator.useCacheForAllThreads: true
+02-26 16:00:39.318 [DEBUG] [main] >>> -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+02-26 16:00:39.326 [DEBUG] [main] >>> -Dio.netty.allocator.type: pooled
+02-26 16:00:39.326 [DEBUG] [main] >>> -Dio.netty.threadLocalDirectBufferSize: 0
+02-26 16:00:39.326 [DEBUG] [main] >>> -Dio.netty.maxThreadLocalCharBufferSize: 16384
+02-26 16:00:39.334 [INFO ] [main] >>> Server started successfully
+02-26 16:00:39.334 [INFO ] [main] >>> Starting push server at : 8084
+02-26 16:00:39.339 [INFO ] [main] >>> Server push started successfully
+02-26 16:00:47.986 [INFO ] [nioEventLoopGroup-3-1] >>> [/192.168.1.200:8085] Channel Active, Concurrent Channel : 1
+02-26 16:00:47.997 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.maxCapacityPerThread: 4096
+02-26 16:00:47.997 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.maxSharedCapacityFactor: 2
+02-26 16:00:47.997 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.linkCapacity: 16
+02-26 16:00:47.997 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.ratio: 8
+02-26 16:00:47.997 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.recycler.delayedQueue.ratio: 8
+02-26 16:00:48.003 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.buffer.checkAccessible: true
+02-26 16:00:48.003 [DEBUG] [nioEventLoopGroup-3-1] >>> -Dio.netty.buffer.checkBounds: true
+02-26 16:00:48.004 [DEBUG] [nioEventLoopGroup-3-1] >>> Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6ccbfbb9
+02-26 16:00:48.015 [TRACE] [nioEventLoopGroup-3-1] >>> [READ Len] 25, [Temp Buffer Len] 0 ===> 01, 01, DB, 76, C3, 03, 66, 00, 0D, 00, 00, 00, 00, 00, 01, 50, 00, 00, 00, 00, 09, 64, CC, A2, 04
+
+02-26 16:00:48.016 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] f, [Packet Length] 25, [ML] 13
+02-26 16:00:48.016 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] f, [완성된 패킷] 길이 25 ===> 01, 01, DB, 76, C3, 03, 66, 00, 0D, 00, 00, 00, 00, 00, 01, 50, 00, 00, 00, 00, 09, 64, CC, A2, 04
+
+02-26 16:00:48.020 [INFO ] [nioEventLoopGroup-3-1] >>> Concurrent Channel : 1
+02-26 16:00:48.163 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 환경부 충전소 ID : 
+02-26 16:00:48.163 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_version : CPP2007070
+02-26 16:00:48.163 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_link : 
+02-26 16:00:48.163 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_name : 
+02-26 16:00:48.163 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_size : 0
+02-26 16:00:48.163 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_filename : 
+02-26 16:00:48.164 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> charger type : slow
+02-26 16:00:48.164 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> manufacturer : 0
+02-26 16:00:48.164 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> model code : 
+02-26 16:00:48.164 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> concurrent channel : 1
+02-26 16:00:48.164 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> firmware version : CPP2007070
+02-26 16:00:48.164 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> sound : 0
+02-26 16:00:48.164 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> channel : 0
+02-26 16:00:48.164 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 충전 요규 전력량 : 0
+02-26 16:00:48.164 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 충전 설정 전류량 : 0
+02-26 16:00:48.164 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 채널 설정 전류량 : 0
+02-26 16:00:48.164 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 충전단가 : [10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
+02-26 16:00:48.164 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 비회원 단가 : 11000
+02-26 16:00:48.165 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing RECV f]
+채널 : 0
+충전기 상태 : 0
+충천기 사용 전력량 : 336
+온도 : 0.0
+습도 : 0.0
+이벤트 코드 : 9
+RSSI : 100
+
+02-26 16:00:48.177 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] Packet log send, 명령어 : f, 
+02-26 16:00:48.186 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing SEND f]
+응답코드 : 0
+현재 시간 : 210226160048
+
+02-26 16:02:13.993 [TRACE] [nioEventLoopGroup-3-1] >>> [READ Len] 25, [Temp Buffer Len] 0 ===> 01, 01, DB, 76, C3, 03, 66, 00, 0D, 00, 00, 00, 00, 00, 01, 50, 00, 00, 00, 00, 03, 64, 6C, A4, 04
+
+02-26 16:02:13.994 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] f, [Packet Length] 25, [ML] 13
+02-26 16:02:13.996 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] f, [완성된 패킷] 길이 25 ===> 01, 01, DB, 76, C3, 03, 66, 00, 0D, 00, 00, 00, 00, 00, 01, 50, 00, 00, 00, 00, 03, 64, 6C, A4, 04
+
+02-26 16:02:13.998 [INFO ] [nioEventLoopGroup-3-1] >>> Concurrent Channel : 1
+02-26 16:02:13.999 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] 마지막 충전기 정보 가져온지 : 1.4305999
+02-26 16:02:14.144 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 환경부 충전소 ID : 
+02-26 16:02:14.144 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_version : CPP2007070
+02-26 16:02:14.144 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_link : 
+02-26 16:02:14.145 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_name : 
+02-26 16:02:14.145 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_size : 0
+02-26 16:02:14.145 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_filename : 
+02-26 16:02:14.146 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> charger type : slow
+02-26 16:02:14.146 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> manufacturer : 0
+02-26 16:02:14.146 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> model code : 
+02-26 16:02:14.146 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> concurrent channel : 1
+02-26 16:02:14.147 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> firmware version : CPP2007070
+02-26 16:02:14.147 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> sound : 0
+02-26 16:02:14.147 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> channel : 0
+02-26 16:02:14.147 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 충전 요규 전력량 : 0
+02-26 16:02:14.148 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 충전 설정 전류량 : 0
+02-26 16:02:14.148 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 채널 설정 전류량 : 0
+02-26 16:02:14.148 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 충전단가 : [10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
+02-26 16:02:14.148 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 비회원 단가 : 11000
+02-26 16:02:14.149 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing RECV f]
+채널 : 0
+충전기 상태 : 0
+충천기 사용 전력량 : 336
+온도 : 0.0
+습도 : 0.0
+이벤트 코드 : 3
+RSSI : 100
+
+02-26 16:02:14.149 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] Packet log send, 명령어 : f, 
+02-26 16:02:14.154 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing SEND f]
+응답코드 : 0
+현재 시간 : 210226160214
+
+02-26 16:02:14.156 [TRACE] [nioEventLoopGroup-3-1] >>> [READ Len] 20, [Temp Buffer Len] 0 ===> 01, 01, DB, 76, C3, 03, 67, 00, 08, 10, 10, 01, 01, 70, 36, 56, 88, 2A, F9, 04
+
+02-26 16:02:14.156 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] g, [Packet Length] 20, [ML] 8
+02-26 16:02:14.158 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] g, [완성된 패킷] 길이 20 ===> 01, 01, DB, 76, C3, 03, 67, 00, 08, 10, 10, 01, 01, 70, 36, 56, 88, 2A, F9, 04
+
+02-26 16:02:14.159 [INFO ] [nioEventLoopGroup-3-1] >>> Concurrent Channel : 1
+02-26 16:02:14.160 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] 마지막 충전기 정보 가져온지 : 2.4999998E-4
+02-26 16:02:14.160 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing RECV g]
+회원 번호 : 10100101 70365688
+
+02-26 16:02:14.307 [DEBUG] [nioEventLoopGroup-3-1] >>> {"status":200,"data":{"result":1,"ret_code":"6","is_member":0,"user_type":2,"point":0,"msg":"회원 정보를 찾을수 없습니다"}}
+02-26 16:02:14.309 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing SEND g]
+응답코드 : 6
+충전 설정 전류량 : 0
+회원 구분 : 2
+비회원 충전 단가 : 11000
+회원 잔액 : 0
+
+02-26 16:02:14.382 [TRACE] [nioEventLoopGroup-3-1] >>> [READ Len] 25, [Temp Buffer Len] 0 ===> 01, 01, DB, 76, C3, 03, 66, 00, 0D, 00, 00, 00, 00, 00, 01, 50, 00, 00, 00, 00, 02, 64, FC, A5, 04
+
+02-26 16:02:14.382 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] f, [Packet Length] 25, [ML] 13
+02-26 16:02:14.383 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] f, [완성된 패킷] 길이 25 ===> 01, 01, DB, 76, C3, 03, 66, 00, 0D, 00, 00, 00, 00, 00, 01, 50, 00, 00, 00, 00, 02, 64, FC, A5, 04
+
+02-26 16:02:14.383 [INFO ] [nioEventLoopGroup-3-1] >>> Concurrent Channel : 1
+02-26 16:02:14.383 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] 마지막 충전기 정보 가져온지 : 0.0039833332
+02-26 16:02:14.384 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing RECV f]
+채널 : 0
+충전기 상태 : 0
+충천기 사용 전력량 : 336
+온도 : 0.0
+습도 : 0.0
+이벤트 코드 : 2
+RSSI : 100
+
+02-26 16:02:14.384 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] Packet log send, 명령어 : f, 
+02-26 16:02:14.385 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing SEND f]
+응답코드 : 0
+현재 시간 : 210226160214
+
+02-26 16:02:30.416 [TRACE] [nioEventLoopGroup-3-1] >>> [READ Len] 25, [Temp Buffer Len] 0 ===> 01, 01, DB, 76, C3, 03, 66, 00, 0D, 00, 00, 00, 00, 00, 01, 50, 00, 00, 00, 00, 03, 64, 6C, A4, 04
+
+02-26 16:02:30.416 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] f, [Packet Length] 25, [ML] 13
+02-26 16:02:30.416 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] f, [완성된 패킷] 길이 25 ===> 01, 01, DB, 76, C3, 03, 66, 00, 0D, 00, 00, 00, 00, 00, 01, 50, 00, 00, 00, 00, 03, 64, 6C, A4, 04
+
+02-26 16:02:30.416 [INFO ] [nioEventLoopGroup-3-1] >>> Concurrent Channel : 1
+02-26 16:02:30.416 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] 마지막 충전기 정보 가져온지 : 0.2712
+02-26 16:02:30.416 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing RECV f]
+채널 : 0
+충전기 상태 : 0
+충천기 사용 전력량 : 336
+온도 : 0.0
+습도 : 0.0
+이벤트 코드 : 3
+RSSI : 100
+
+02-26 16:02:30.417 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] Packet log send, 명령어 : f, 
+02-26 16:02:30.417 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing SEND f]
+응답코드 : 0
+현재 시간 : 210226160230
+
+02-26 16:02:30.421 [TRACE] [nioEventLoopGroup-3-1] >>> [READ Len] 20, [Temp Buffer Len] 0 ===> 01, 01, DB, 76, C3, 03, 67, 00, 08, 10, 10, 01, 01, 70, 36, 56, 88, 2A, F9, 04
+
+02-26 16:02:30.421 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] g, [Packet Length] 20, [ML] 8
+02-26 16:02:30.421 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] g, [완성된 패킷] 길이 20 ===> 01, 01, DB, 76, C3, 03, 67, 00, 08, 10, 10, 01, 01, 70, 36, 56, 88, 2A, F9, 04
+
+02-26 16:02:30.421 [INFO ] [nioEventLoopGroup-3-1] >>> Concurrent Channel : 1
+02-26 16:02:30.421 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] 마지막 충전기 정보 가져온지 : 0.27128333
+02-26 16:02:30.422 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing RECV g]
+회원 번호 : 10100101 70365688
+
+02-26 16:02:30.556 [DEBUG] [nioEventLoopGroup-3-1] >>> {"status":200,"data":{"result":1,"ret_code":"6","is_member":0,"user_type":2,"point":0,"msg":"회원 정보를 찾을수 없습니다"}}
+02-26 16:02:30.557 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing SEND g]
+응답코드 : 6
+충전 설정 전류량 : 0
+회원 구분 : 2
+비회원 충전 단가 : 11000
+회원 잔액 : 0
+
+02-26 16:02:30.601 [TRACE] [nioEventLoopGroup-3-1] >>> [READ Len] 25, [Temp Buffer Len] 0 ===> 01, 01, DB, 76, C3, 03, 66, 00, 0D, 00, 00, 00, 00, 00, 01, 50, 00, 00, 00, 00, 02, 64, FC, A5, 04
+
+02-26 16:02:30.602 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] f, [Packet Length] 25, [ML] 13
+02-26 16:02:30.602 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] f, [완성된 패킷] 길이 25 ===> 01, 01, DB, 76, C3, 03, 66, 00, 0D, 00, 00, 00, 00, 00, 01, 50, 00, 00, 00, 00, 02, 64, FC, A5, 04
+
+02-26 16:02:30.602 [INFO ] [nioEventLoopGroup-3-1] >>> Concurrent Channel : 1
+02-26 16:02:30.602 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] 마지막 충전기 정보 가져온지 : 0.2743
+02-26 16:02:30.602 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing RECV f]
+채널 : 0
+충전기 상태 : 0
+충천기 사용 전력량 : 336
+온도 : 0.0
+습도 : 0.0
+이벤트 코드 : 2
+RSSI : 100
+
+02-26 16:02:30.602 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] Packet log send, 명령어 : f, 
+02-26 16:02:30.603 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing SEND f]
+응답코드 : 0
+현재 시간 : 210226160230
+
+02-26 16:32:31.411 [TRACE] [nioEventLoopGroup-3-1] >>> [READ Len] 25, [Temp Buffer Len] 0 ===> 01, 01, DB, 76, C3, 03, 66, 00, 0D, 00, 00, 00, 00, 00, 01, 50, 00, 00, 00, 00, 00, 64, 9C, A4, 04
+
+02-26 16:32:31.412 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] f, [Packet Length] 25, [ML] 13
+02-26 16:32:31.412 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] f, [완성된 패킷] 길이 25 ===> 01, 01, DB, 76, C3, 03, 66, 00, 0D, 00, 00, 00, 00, 00, 01, 50, 00, 00, 00, 00, 00, 64, 9C, A4, 04
+
+02-26 16:32:31.412 [INFO ] [nioEventLoopGroup-3-1] >>> Concurrent Channel : 1
+02-26 16:32:31.412 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] 마지막 충전기 정보 가져온지 : 30.2878
+02-26 16:32:31.568 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 환경부 충전소 ID : 
+02-26 16:32:31.568 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_version : CPP2007070
+02-26 16:32:31.568 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_link : 
+02-26 16:32:31.568 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_name : 
+02-26 16:32:31.568 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_size : 0
+02-26 16:32:31.568 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_filename : 
+02-26 16:32:31.568 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> charger type : slow
+02-26 16:32:31.568 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> manufacturer : 0
+02-26 16:32:31.568 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> model code : 
+02-26 16:32:31.568 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> concurrent channel : 1
+02-26 16:32:31.568 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> firmware version : CPP2007070
+02-26 16:32:31.568 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> sound : 0
+02-26 16:32:31.568 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> channel : 0
+02-26 16:32:31.568 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 충전 요규 전력량 : 0
+02-26 16:32:31.568 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 충전 설정 전류량 : 0
+02-26 16:32:31.568 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 채널 설정 전류량 : 0
+02-26 16:32:31.568 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 충전단가 : [10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
+02-26 16:32:31.569 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 비회원 단가 : 11000
+02-26 16:32:31.569 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing RECV f]
+채널 : 0
+충전기 상태 : 0
+충천기 사용 전력량 : 336
+온도 : 0.0
+습도 : 0.0
+이벤트 코드 : 0
+RSSI : 100
+
+02-26 16:32:31.569 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] Packet log send, 명령어 : f, 
+02-26 16:32:31.570 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing SEND f]
+응답코드 : 0
+현재 시간 : 210226163231
+
+02-26 16:36:28.412 [TRACE] [nioEventLoopGroup-3-1] >>> [READ Len] 13, [Temp Buffer Len] 0 ===> 01, 01, DB, 76, C3, 03, 6D, 00, 01, 00, 47, 14, 04
+
+02-26 16:36:28.412 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] m, [Packet Length] 13, [ML] 1
+02-26 16:36:28.413 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] m, [완성된 패킷] 길이 13 ===> 01, 01, DB, 76, C3, 03, 6D, 00, 01, 00, 47, 14, 04
+
+02-26 16:36:28.413 [INFO ] [nioEventLoopGroup-3-1] >>> Concurrent Channel : 1
+02-26 16:36:28.414 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] 마지막 충전기 정보 가져온지 : 3.9474332
+02-26 16:36:28.552 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 환경부 충전소 ID : 
+02-26 16:36:28.552 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_version : CPP2007070
+02-26 16:36:28.553 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_link : 
+02-26 16:36:28.553 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_name : 
+02-26 16:36:28.553 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_size : 0
+02-26 16:36:28.553 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_filename : 
+02-26 16:36:28.553 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> charger type : slow
+02-26 16:36:28.553 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> manufacturer : 0
+02-26 16:36:28.553 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> model code : 
+02-26 16:36:28.553 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> concurrent channel : 1
+02-26 16:36:28.553 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> firmware version : CPP2007070
+02-26 16:36:28.553 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> sound : 0
+02-26 16:36:28.553 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> channel : 0
+02-26 16:36:28.553 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 충전 요규 전력량 : 0
+02-26 16:36:28.553 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 충전 설정 전류량 : 0
+02-26 16:36:28.553 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 채널 설정 전류량 : 0
+02-26 16:36:28.553 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 충전단가 : [10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
+02-26 16:36:28.553 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 비회원 단가 : 11000
+02-26 16:36:28.553 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing RECV m]
+다운로드 종류 : 0
+
+02-26 16:36:28.555 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing SEND m]
+다운로드 버전 : CPP2007070
+전체용량 : 0
+
+02-26 16:36:32.412 [TRACE] [nioEventLoopGroup-3-1] >>> [READ Len] 12, [Temp Buffer Len] 0 ===> 01, 01, DB, 76, C3, 03, 65, 00, 00, D6, B5, 04
+
+02-26 16:36:32.412 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] e, [Packet Length] 12, [ML] 0
+02-26 16:36:32.412 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] e, [완성된 패킷] 길이 12 ===> 01, 01, DB, 76, C3, 03, 65, 00, 00, D6, B5, 04
+
+02-26 16:36:32.412 [INFO ] [nioEventLoopGroup-3-1] >>> Concurrent Channel : 1
+02-26 16:36:32.412 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] 마지막 충전기 정보 가져온지 : 0.064333335
+02-26 16:36:32.412 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing RECV e]
+N/A
+02-26 16:36:32.417 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing SEND e]
+충전 단가 (시간별) : 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000
+
+02-26 17:02:32.425 [TRACE] [nioEventLoopGroup-3-1] >>> [READ Len] 25, [Temp Buffer Len] 0 ===> 01, 01, DB, 76, C3, 03, 66, 00, 0D, 00, 00, 00, 00, 00, 01, 50, 00, 00, 00, 00, 00, 64, 9C, A4, 04
+
+02-26 17:02:32.426 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] f, [Packet Length] 25, [ML] 13
+02-26 17:02:32.426 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] f, [완성된 패킷] 길이 25 ===> 01, 01, DB, 76, C3, 03, 66, 00, 0D, 00, 00, 00, 00, 00, 01, 50, 00, 00, 00, 00, 00, 64, 9C, A4, 04
+
+02-26 17:02:32.426 [INFO ] [nioEventLoopGroup-3-1] >>> Concurrent Channel : 1
+02-26 17:02:32.426 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] 마지막 충전기 정보 가져온지 : 26.064568
+02-26 17:02:32.571 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 환경부 충전소 ID : 
+02-26 17:02:32.571 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_version : CPP2007070
+02-26 17:02:32.571 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_link : 
+02-26 17:02:32.571 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_name : 
+02-26 17:02:32.571 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_size : 0
+02-26 17:02:32.571 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_filename : 
+02-26 17:02:32.571 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> charger type : slow
+02-26 17:02:32.572 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> manufacturer : 0
+02-26 17:02:32.572 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> model code : 
+02-26 17:02:32.572 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> concurrent channel : 1
+02-26 17:02:32.572 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> firmware version : CPP2007070
+02-26 17:02:32.572 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> sound : 0
+02-26 17:02:32.572 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> channel : 0
+02-26 17:02:32.572 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 충전 요규 전력량 : 0
+02-26 17:02:32.572 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 충전 설정 전류량 : 0
+02-26 17:02:32.572 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 채널 설정 전류량 : 0
+02-26 17:02:32.572 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 충전단가 : [10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
+02-26 17:02:32.572 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 비회원 단가 : 11000
+02-26 17:02:32.572 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing RECV f]
+채널 : 0
+충전기 상태 : 0
+충천기 사용 전력량 : 336
+온도 : 0.0
+습도 : 0.0
+이벤트 코드 : 0
+RSSI : 100
+
+02-26 17:02:32.573 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] Packet log send, 명령어 : f, 
+02-26 17:02:32.573 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing SEND f]
+응답코드 : 0
+현재 시간 : 210226170232
+
+02-26 17:24:07.804 [TRACE] [nioEventLoopGroup-3-1] >>> [READ Len] 25, [Temp Buffer Len] 0 ===> 01, 01, DB, 76, C3, 03, 66, 00, 0D, 00, 00, 00, 00, 00, 01, 50, 00, 00, 00, 00, 03, 64, 6C, A4, 04
+
+02-26 17:24:07.805 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] f, [Packet Length] 25, [ML] 13
+02-26 17:24:07.806 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] f, [완성된 패킷] 길이 25 ===> 01, 01, DB, 76, C3, 03, 66, 00, 0D, 00, 00, 00, 00, 00, 01, 50, 00, 00, 00, 00, 03, 64, 6C, A4, 04
+
+02-26 17:24:07.807 [INFO ] [nioEventLoopGroup-3-1] >>> Concurrent Channel : 1
+02-26 17:24:07.807 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] 마지막 충전기 정보 가져온지 : 21.587267
+02-26 17:24:07.954 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 환경부 충전소 ID : 
+02-26 17:24:07.954 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_version : CPP2007070
+02-26 17:24:07.954 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_link : 
+02-26 17:24:07.954 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_name : 
+02-26 17:24:07.954 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_size : 0
+02-26 17:24:07.954 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_filename : 
+02-26 17:24:07.954 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> charger type : slow
+02-26 17:24:07.954 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> manufacturer : 0
+02-26 17:24:07.954 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> model code : 
+02-26 17:24:07.955 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> concurrent channel : 1
+02-26 17:24:07.955 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> firmware version : CPP2007070
+02-26 17:24:07.955 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> sound : 0
+02-26 17:24:07.955 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> channel : 0
+02-26 17:24:07.955 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 충전 요규 전력량 : 0
+02-26 17:24:07.955 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 충전 설정 전류량 : 0
+02-26 17:24:07.955 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 채널 설정 전류량 : 0
+02-26 17:24:07.955 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 충전단가 : [10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
+02-26 17:24:07.955 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 비회원 단가 : 11000
+02-26 17:24:07.955 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing RECV f]
+채널 : 0
+충전기 상태 : 0
+충천기 사용 전력량 : 336
+온도 : 0.0
+습도 : 0.0
+이벤트 코드 : 3
+RSSI : 100
+
+02-26 17:24:07.956 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] Packet log send, 명령어 : f, 
+02-26 17:24:07.957 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing SEND f]
+응답코드 : 0
+현재 시간 : 210226172407
+
+02-26 17:24:07.959 [TRACE] [nioEventLoopGroup-3-1] >>> [READ Len] 20, [Temp Buffer Len] 0 ===> 01, 01, DB, 76, C3, 03, 67, 00, 08, 10, 10, 01, 01, 70, 36, 56, 88, 2A, F9, 04
+
+02-26 17:24:07.959 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] g, [Packet Length] 20, [ML] 8
+02-26 17:24:07.959 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] g, [완성된 패킷] 길이 20 ===> 01, 01, DB, 76, C3, 03, 67, 00, 08, 10, 10, 01, 01, 70, 36, 56, 88, 2A, F9, 04
+
+02-26 17:24:07.960 [INFO ] [nioEventLoopGroup-3-1] >>> Concurrent Channel : 1
+02-26 17:24:07.960 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] 마지막 충전기 정보 가져온지 : 1.0E-4
+02-26 17:24:07.960 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing RECV g]
+회원 번호 : 10100101 70365688
+
+02-26 17:24:08.094 [DEBUG] [nioEventLoopGroup-3-1] >>> {"status":200,"data":{"result":1,"ret_code":"6","is_member":0,"user_type":2,"point":0,"msg":"회원 정보를 찾을수 없습니다"}}
+02-26 17:24:08.094 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing SEND g]
+응답코드 : 6
+충전 설정 전류량 : 0
+회원 구분 : 2
+비회원 충전 단가 : 11000
+회원 잔액 : 0
+
+02-26 17:24:08.175 [TRACE] [nioEventLoopGroup-3-1] >>> [READ Len] 25, [Temp Buffer Len] 0 ===> 01, 01, DB, 76, C3, 03, 66, 00, 0D, 00, 00, 00, 00, 00, 01, 50, 00, 00, 00, 00, 02, 64, FC, A5, 04
+
+02-26 17:24:08.176 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] f, [Packet Length] 25, [ML] 13
+02-26 17:24:08.177 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] f, [완성된 패킷] 길이 25 ===> 01, 01, DB, 76, C3, 03, 66, 00, 0D, 00, 00, 00, 00, 00, 01, 50, 00, 00, 00, 00, 02, 64, FC, A5, 04
+
+02-26 17:24:08.178 [INFO ] [nioEventLoopGroup-3-1] >>> Concurrent Channel : 1
+02-26 17:24:08.178 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] 마지막 충전기 정보 가져온지 : 0.0037333334
+02-26 17:24:08.178 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing RECV f]
+채널 : 0
+충전기 상태 : 0
+충천기 사용 전력량 : 336
+온도 : 0.0
+습도 : 0.0
+이벤트 코드 : 2
+RSSI : 100
+
+02-26 17:24:08.179 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] Packet log send, 명령어 : f, 
+02-26 17:24:08.181 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing SEND f]
+응답코드 : 0
+현재 시간 : 210226172408
+
+02-26 17:36:28.440 [TRACE] [nioEventLoopGroup-3-1] >>> [READ Len] 13, [Temp Buffer Len] 0 ===> 01, 01, DB, 76, C3, 03, 6D, 00, 01, 00, 47, 14, 04
+
+02-26 17:36:28.441 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] m, [Packet Length] 13, [ML] 1
+02-26 17:36:28.441 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] m, [완성된 패킷] 길이 13 ===> 01, 01, DB, 76, C3, 03, 6D, 00, 01, 00, 47, 14, 04
+
+02-26 17:36:28.442 [INFO ] [nioEventLoopGroup-3-1] >>> Concurrent Channel : 1
+02-26 17:36:28.442 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] 마지막 충전기 정보 가져온지 : 12.341466
+02-26 17:36:28.597 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 환경부 충전소 ID : 
+02-26 17:36:28.597 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_version : CPP2007070
+02-26 17:36:28.598 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_link : 
+02-26 17:36:28.598 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_name : 
+02-26 17:36:28.598 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_size : 0
+02-26 17:36:28.598 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_filename : 
+02-26 17:36:28.599 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> charger type : slow
+02-26 17:36:28.599 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> manufacturer : 0
+02-26 17:36:28.599 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> model code : 
+02-26 17:36:28.599 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> concurrent channel : 1
+02-26 17:36:28.599 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> firmware version : CPP2007070
+02-26 17:36:28.600 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> sound : 0
+02-26 17:36:28.600 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> channel : 0
+02-26 17:36:28.600 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 충전 요규 전력량 : 0
+02-26 17:36:28.600 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 충전 설정 전류량 : 0
+02-26 17:36:28.600 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 채널 설정 전류량 : 0
+02-26 17:36:28.601 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 충전단가 : [10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
+02-26 17:36:28.601 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 비회원 단가 : 11000
+02-26 17:36:28.601 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing RECV m]
+다운로드 종류 : 0
+
+02-26 17:36:28.604 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing SEND m]
+다운로드 버전 : CPP2007070
+전체용량 : 0
+
+02-26 17:36:33.439 [TRACE] [nioEventLoopGroup-3-1] >>> [READ Len] 12, [Temp Buffer Len] 0 ===> 01, 01, DB, 76, C3, 03, 65, 00, 00, D6, B5, 04
+
+02-26 17:36:33.440 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] e, [Packet Length] 12, [ML] 0
+02-26 17:36:33.440 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] e, [완성된 패킷] 길이 12 ===> 01, 01, DB, 76, C3, 03, 65, 00, 00, D6, B5, 04
+
+02-26 17:36:33.441 [INFO ] [nioEventLoopGroup-3-1] >>> Concurrent Channel : 1
+02-26 17:36:33.441 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] 마지막 충전기 정보 가져온지 : 0.08073333
+02-26 17:36:33.441 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing RECV e]
+N/A
+02-26 17:36:33.444 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing SEND e]
+충전 단가 (시간별) : 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000
+
+02-26 17:54:08.450 [TRACE] [nioEventLoopGroup-3-1] >>> [READ Len] 25, [Temp Buffer Len] 0 ===> 01, 01, DB, 76, C3, 03, 66, 00, 0D, 00, 00, 00, 00, 00, 01, 50, 00, 00, 00, 00, 00, 64, 9C, A4, 04
+
+02-26 17:54:08.450 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] f, [Packet Length] 25, [ML] 13
+02-26 17:54:08.450 [TRACE] [nioEventLoopGroup-3-1] >>> [INS] f, [완성된 패킷] 길이 25 ===> 01, 01, DB, 76, C3, 03, 66, 00, 0D, 00, 00, 00, 00, 00, 01, 50, 00, 00, 00, 00, 00, 64, 9C, A4, 04
+
+02-26 17:54:08.451 [INFO ] [nioEventLoopGroup-3-1] >>> Concurrent Channel : 1
+02-26 17:54:08.451 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] 마지막 충전기 정보 가져온지 : 17.664234
+02-26 17:54:08.601 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 환경부 충전소 ID : 
+02-26 17:54:08.601 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_version : CPP2007070
+02-26 17:54:08.602 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_link : 
+02-26 17:54:08.602 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_name : 
+02-26 17:54:08.602 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_size : 0
+02-26 17:54:08.602 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> last_firmware_filename : 
+02-26 17:54:08.602 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> charger type : slow
+02-26 17:54:08.603 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> manufacturer : 0
+02-26 17:54:08.603 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> model code : 
+02-26 17:54:08.603 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> concurrent channel : 1
+02-26 17:54:08.603 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> firmware version : CPP2007070
+02-26 17:54:08.603 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> sound : 0
+02-26 17:54:08.603 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> channel : 0
+02-26 17:54:08.604 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 충전 요규 전력량 : 0
+02-26 17:54:08.604 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 충전 설정 전류량 : 0
+02-26 17:54:08.604 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 채널 설정 전류량 : 0
+02-26 17:54:08.604 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 충전단가 : [10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
+02-26 17:54:08.604 [INFO ] [nioEventLoopGroup-3-1] >>> [31160003-03] ==> 비회원 단가 : 11000
+02-26 17:54:08.605 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing RECV f]
+채널 : 0
+충전기 상태 : 0
+충천기 사용 전력량 : 336
+온도 : 0.0
+습도 : 0.0
+이벤트 코드 : 0
+RSSI : 100
+
+02-26 17:54:08.605 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] Packet log send, 명령어 : f, 
+02-26 17:54:08.606 [DEBUG] [nioEventLoopGroup-3-1] >>> [192.168.1.200:8085] [31160003-03] [Parsing SEND f]
+응답코드 : 0
+현재 시간 : 210226175408
+
